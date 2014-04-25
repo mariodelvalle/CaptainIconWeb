@@ -1,0 +1,1152 @@
+@import "colors";
+@import "fonts";
+
+/* ===========================================================
+                            GLOBAL
+   =========================================================== */
+
+*, html, body{
+	box-sizing: border-box;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+body{
+	font-family: 'proxima_nova_regular', sans-serif, Arial;
+	font-size: 100%;
+	margin: 0;
+	user-select: none;
+}
+
+h1,h2,h3{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 480%;
+    line-height: 1em;
+}
+
+h3{
+    font-size: 300%;
+    text-align: left;
+}
+
+h4{
+    font-size: 170%;
+}
+
+h1, h2, h3{
+	color: $dark-gray;
+	font-family: 'populaire', sans-serif, Arial;
+}
+
+p{
+	color: $gray;
+	font-size: 1.5em;
+	font-family: 'proxima_nova_light', sans-serif, Arial;
+	font-weight: 500;
+	text-align: left;
+}
+
+b{
+	letter-spacing: -0.02em;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img{
+	width: 100%;
+}
+
+#features h2, #features p, #autor h2, #autor p, #social h2, .slogan, .scroll-to, .vector-icons{
+	color: $white;
+}
+
+.section-desc{
+	text-align: center;
+}
+
+.row{
+	min-height: 540px;
+	padding: 10px;
+	position: relative;
+}
+
+.block{
+	margin-top: 200px;
+	opacity: 0;
+	transition: all 0.4s ease; 
+}
+
+.left, .right{
+	width: 42.5%;
+
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.left{
+	margin-left: 2%;
+	padding-right: 4em;
+	float: left;
+}
+
+.right{
+	margin-right: 2%;
+	float: right;
+}
+
+.active .left{
+	margin-left: 6%;
+}
+
+.active .right{
+	margin-right: 6%;
+}
+
+.active .block{
+	margin-top: 100px;
+	opacity: 1;
+}
+
+.block-inner{
+	margin: 200px auto 0;
+	text-align: center;
+	width: 80%;
+}
+
+.border-before{
+	background: none repeat scroll $light-gray;
+	top: 13px;
+}
+
+.border-before-designers{
+	background: none repeat scroll $light-red;
+	top: -30px;
+}
+
+.border-before-colors{
+	background: none repeat scroll $cream-rose;
+	top: -12px;
+}
+
+.border-before-download{
+	background: none repeat scroll $blue;
+	top: -12px;
+}
+
+.border-before,.border-before-designers, .border-before-colors, .border-before-download{
+	height: 20px;
+	display: block;
+	transform: rotate(-0.5deg); 
+	-webkit-backface-visibility: hidden;
+	z-index: 10;
+	position: relative;
+	
+}
+
+.border-after, .border-after-designers, .border-after-colors{
+	height: 40px;
+	display: block;
+	position: relative;
+	transform: rotate(0.8deg);
+	-webkit-backface-visibility: hidden;
+	z-index: 10;
+}
+
+.border-after{
+	background: none repeat scroll $extralight-gray;
+	bottom: -15px;
+}
+
+.border-after-designers{
+	background: none repeat scroll $light-cream-rose;
+	bottom: -30px;
+}
+
+.border-after-colors{
+	background: none repeat scroll $blue;
+	bottom: -25px;
+}
+
+.highlight{
+	color: $dark-cream-rose;
+}
+
+.clear{
+	clear: both;
+}
+
+/* ===========================================================
+                            TOP CONTAINER
+   =========================================================== */
+
+.top-container{
+	background: $light-red url('../img/background.svg') center -60px repeat;
+	height: 99%;
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+
+.logo{
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 80%; 
+	height: 86%;
+	min-width: 200px;
+	text-align: center;
+}
+
+.logo-image{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 4%;
+	max-width: 600px;
+}
+
+.slogan{
+	font-family: 'populaire';
+	font-size: 3em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-shadow: 2px 2px $dark-red;
+	width: 42%;
+	margin: 0 auto;
+}
+
+.vector-icons{
+	background: $purple;
+	border-radius: 4px;
+	display: inline-block;
+	height: 1.1em;
+	line-height: 1.3em;
+	padding: 0 0.2em;
+	text-shadow: none;
+}
+
+.scroll-to{	
+	font-size: 1.2em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-width: 200px;
+	text-align: center;
+}
+
+.nav-down{
+	width: 100px;
+	height: 40px;
+	display: block;
+	background: $white url('../img/nav-down.svg') center center no-repeat;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	outline: none;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50px;
+}
+
+/* ===========================================================
+                            WELCOME
+   =========================================================== */
+
+#welcome{
+	background: $white url('../img/clouds.svg') right center no-repeat;
+	background-size: 60%;
+
+	.right img{
+		max-width: 400px;
+	}
+}
+
+/* ===========================================================
+                            STEPS
+   =========================================================== */
+
+#steps{
+	background: $extralight-gray url('../img/back-steps.svg') left 8% no-repeat;
+	background-size: 680px;
+	margin-bottom: -30px;
+	z-index: 11;
+
+	q.quote{
+		color: $quote;
+		display: block;
+		font-family: 'proxima_nova_light';
+		font-size: 120%;
+		font-style: italic;
+		padding: 0 0 2em;
+	}
+
+	ul.step-list{
+
+		width: 100%;
+
+		li{
+			width: 33.33333333%;
+			float: left;
+			margin: 0;
+			padding: 0 4%;
+
+			div.image{
+				position: relative;
+
+				img{
+					margin-bottom: 2em;
+					position: relative; 
+					top: 0;
+					left: 0;
+					transition: opacity 10s easy; 
+				}
+			}
+				
+			div.image img.onhover{
+				position: absolute;
+			}
+
+			div.image:hover img.onhover{
+				opacity: 1;
+			}
+		}
+	} 
+}
+
+/* ===========================================================
+                            FEATURES
+   =========================================================== */
+
+#features{
+	background: $light-red url('../img/compass.svg') right center no-repeat;
+	bottom: 20px;
+
+	h2{
+		padding-bottom: 1em;
+	}
+
+	ul.feature-list{
+		li{
+			float: left;
+			margin: 0 0 4em;
+			width: 50%;
+
+			.image{
+				float: left;
+				width: 25%;
+			}
+
+			.text{
+				float: right;
+				padding: 0.4em 10% 0 5%;
+				width: 75%;
+
+				h3{
+					color: $cream;
+				}
+
+				p{
+					margin: 0;
+				}
+			}		
+		}
+	}
+}
+
+/* ===========================================================
+                        RESOURCE FOR DESIGNERS
+   =========================================================== */
+
+#designers{
+	background: transparent url('../img/designers.svg') left top no-repeat;
+	background-size: 40% auto;
+	margin-top: -30px;
+}
+
+/* ===========================================================
+                        	CUSTOMIZATION
+   =========================================================== */
+
+#customization{
+	background: $light-cream-rose;
+	z-index: 11;
+}
+
+/* ===========================================================
+                        	COLORS
+   =========================================================== */
+
+#colors{
+
+	h3.select{
+		color: $red;
+	}
+
+	#icon{
+		margin-top: 2em;
+		max-width: 400px;
+	}
+
+	ul.color-list{
+		margin-bottom: 3em;
+		overflow: auto;
+		padding: 0;
+
+		li{
+			border-radius: 50%;
+			float: left;
+			margin: 0 5px 0 0;
+			padding: 5px;
+
+			&.selected{
+				background: transparent url('../img/color-selected.png') center center no-repeat;
+				background-size: 40px 40px;
+			}
+
+			span{
+				float: left;
+				width: 30px;
+				height: 30px;
+				text-indent: -9999px;
+				border-radius: 50%;
+				cursor: pointer;
+
+				&.color-0{
+					background: $color-list-0;
+				}
+
+				&.color-1{
+					background: $color-list-1;
+				}
+
+				&.color-2{
+					background: $color-list-2;
+				}
+
+				&.color-3{
+					background: $color-list-3;
+				}
+
+				&.color-4{
+					background: $color-list-4;
+				}
+
+				&.color-5{
+					background: $color-list-5;
+				}
+
+				&.color-6{
+					background: $color-list-6;
+				}
+
+				&.color-7{
+					background: $color-list-7;
+				}
+
+				&.color-8{
+					background: $color-list-8;
+				}
+
+				&.color-9{
+					background: $color-list-9;
+				}
+			}
+		}
+	}
+}
+
+/* ===========================================================
+                        		ABOUT ME
+   =========================================================== */
+
+#autor{
+	background: $blue url('../img/map.svg') right bottom no-repeat;
+	min-height: 570px;
+	z-index: 11;
+
+	.right{
+		img{
+			max-width: 300px;
+		}
+	}
+
+	a{
+		text-decoration: none;
+		color: $turquoise;
+	}
+}
+
+/* ===========================================================
+                        DOWNLOAD AND DONATE
+   =========================================================== */
+
+#download{
+	background: $extralight-gray;
+	bottom: 20px;
+	margin-bottom: -50px;
+	padding-bottom: 60px;
+
+	.button{
+		margin-top: 2em;
+		position: relative;
+		float: left;
+		width: 30%;
+
+		img{
+			max-width: 360px;
+		}
+	}
+
+	div.button:first-of-type{
+		margin-left: 15%;
+		margin-right: 5%;
+	}
+
+	div.button + div.button{
+		margin-left: 5%;
+		margin-right: 15%;
+	}
+
+	a,input{
+		background: $green;
+		border: 0; 
+	    border-radius: 4px;
+	    box-shadow: 0 5px $dark-green;
+	    bottom: 40px;
+	    color: #FFFFFF;
+	    cursor: pointer;
+	    display: block;
+	    font-family: populaire;
+	    font-size: 2em;
+	    height: 50px;
+	    left: 50%;
+	    margin-left: -80px;
+	    padding-top: 6px;
+	    position: absolute;
+	    text-decoration: none;
+	    width: 160px;
+	    -webkit-appearance: none;
+
+	    &:hover{
+	    	background: $light-green;
+	    	box-shadow: 0 5px $green; 
+	    };
+	}
+}
+
+/* ===========================================================
+                        	SOCIAL
+   =========================================================== */
+
+@-webkit-keyframes clouds{
+	0%{-webkit-transform:translate(0, 0px)}
+	100%{-webkit-transform:translate(1440px, 0)}
+}
+
+@-moz-keyframes clouds{
+	0%{transform:translate(0, 0px)}
+	100%{transform:translate(1440px, 0)}}
+
+@keyframes clouds{
+	0%{transform:translate(0, 0px)}
+	100%{transform:translate(1440px, 0)}
+}
+
+#social{
+	background: $light-red url('../img/city.svg') left bottom repeat-x;
+	min-height: 560px;
+	overflow: hidden;
+
+	.clouds{
+		background: url('../img/clouds-city.svg');
+		background-repeat: repeat-x;
+		height: 200px;
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		width: 100%;
+		z-index: 0;
+
+		animation: clouds 300s linear infinite; 
+	}
+
+	.house{
+		height: 100%;
+		position: absolute;
+		top: 0;
+	}
+
+	.left-first-house{
+		background: url('../img/left-first-house.svg') left top no-repeat;
+		right: 90%;
+		width: 192px;
+		z-index: 3;
+	}
+
+	.left-second-house{
+		background: url('../img/left-second-house.svg') left top no-repeat;
+		right: 80%;
+		width: 274px;
+		z-index: 2;
+	}
+
+	.left-third-house{
+		background: url('../img/left-third-house.svg') left top no-repeat;
+		right: 70%;
+		width: 384px;
+		z-index: 1;
+	}
+
+	.right-first-house{
+		background: url('../img/right-first-house.svg') right top no-repeat;
+		left: 86%;
+		width: 270px;
+		z-index: 6;
+	}
+
+	.right-second-house{
+		background: url('../img/right-second-house.svg') right top no-repeat;
+		left: 78%;
+		width: 164px;
+		z-index: 5;
+	}
+
+	.right-third-house{
+		background: url('../img/right-third-house.svg') right top no-repeat;
+		left: 70%;
+		width: 384px;
+		z-index: 4;
+	}
+
+	.block-inner{
+		padding-top: 40px;
+		position: relative;
+		z-index: 7;
+	}
+
+	h2{
+		padding-bottom: 0.5em;
+	}
+
+	.social-list{
+		margin: 0 auto;
+		overflow: auto;
+		padding: 0;
+		width: 460px;
+
+		li{
+			float: left;
+			width: 25%;
+
+			a{
+				outline: none;
+			}
+		}
+
+		img{
+			max-width: 70px;
+
+			&:hover{
+				max-width: 80px;
+				transition: all 0.4s ease; 
+			};
+		}
+	}
+}
+
+/* ===========================================================
+                        	MOBILE
+   =========================================================== */
+
+.mobile{
+	.block{
+		margin-top: 1.5em;
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 960px){
+
+	h2{
+		font-size: 2.8em;
+	}
+
+	p{
+		font-size: 1.2em;
+	}
+
+	.block{
+		height: auto;
+		margin-top: 150px;
+		padding: 0 .5em;
+	}
+
+	.block-inner{
+		width: 100%;
+	}
+
+	.active .block{
+		margin-top: 50px;
+	}
+
+	.active .left, .left{
+		margin-left: 0;
+	}
+
+	.active .right, .right{
+		margin-right: 0;
+		margin-bottom: 100px;
+	}
+
+	.left{
+		padding-right: 0;
+	}
+
+	.right{
+		margin-bottom: 50px;
+	}
+
+	.left, .right{
+		float: none;
+		width: 100%;
+	}
+
+	.top-container{
+		background-size: 120%;
+	}
+
+	.logo-image{
+		max-width: 80%;
+	}
+
+	.slogan{
+		width: 100%;
+	}
+
+	#welcome{
+		background: $white url('../img/clouds-mobile.svg') no-repeat;
+		background-position: center 80%;
+		background-size: 100%;
+	}
+
+	#steps ul.step-list{
+		margin: 0 auto;
+		width: 60%;
+
+		li{
+			padding: 0;
+			width: 100%;
+		}
+	}
+
+	#features .block{
+		margin-top: 100px;
+	}
+
+	#features ul.feature-list li{
+		width: 100%;
+
+		h3{
+			font-size: 2.4em;
+			text-align: center;
+		}
+
+		.image img{
+			max-width: 150px;
+			margin-bottom: 1em;
+		}
+
+		.image, .text{
+			float: none;
+			width: 100%;
+		}
+
+		.text{
+			padding: 0;
+		}
+	}
+
+	#designers{
+
+		background-size: auto;
+		padding-top: 330px;
+
+		.right{
+			margin-bottom: 50px;
+		} 
+	}
+
+	#colors {
+
+		h3.select{
+			font-size: 2em;
+		}
+		
+		#icon{
+			margin-top: 0;
+			width: 90%;
+		}
+
+		ul.color-list {
+			margin-bottom: 0em;
+
+			li{
+				margin: 0 5px 1em 0;
+			}
+		}
+
+		.right{
+			margin-top: 0;
+		}
+	}
+
+	#autor{
+		padding-bottom: 12em;
+	}
+
+	#download{
+		.button{
+			float: none;
+			margin-left: 0;
+			margin-right: 0;
+			width: 100%;
+
+			img{
+				max-width: 300px;
+			}
+		}
+
+		div.button:first-of-type{
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		div.button + div.button{
+			margin-left: 0;
+		}
+	}
+
+	#social{
+		min-height: 400px;
+
+		.house{
+			display: none;
+		}
+
+		.social-list{
+			width: 100%;
+
+			li{
+				padding: 0 2%;
+			}
+		}
+	} 
+}
+
+@media only screen and (max-device-width: 960px){
+	.slogan{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (orientation : landscape) and (max-device-width: 1280px){
+
+	.logo-image{
+		max-width: 150px;
+	}
+
+	.logo{
+		height: 65%;
+	}
+}
+
+/* ===========================================================
+                        DESKTOPS AND LAPTOPS
+   =========================================================== */
+
+@media only screen and (min-width: 960px) and (max-width: 1280px){
+
+	.active .block{
+		margin-top: 50px;
+	}
+
+	.block-inner{
+		width: 90%;
+	}
+
+	#steps{
+		.section-desc{
+			margin: 1em auto;
+			width: 80%;
+		}
+	}
+
+	#features h2{
+		padding: 0.5em 0;
+	}
+
+	#designers{
+		background: transparent url('../img/designers_1280.svg') left top no-repeat;
+	}
+
+	#customization img{
+		content: url("../img/customization_1024.svg");
+		max-height: 460px;
+	}
+
+	#colors h3.select{
+		font-size: 260%;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1400px){
+
+	.logo-image{
+		max-width: 440px;
+	}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1400px) {
+
+	.slogan{
+		width: 70%;
+	}
+
+	.left-third-house, .right-third-house{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px) {
+	.slogan{
+		width: 50%;
+	}
+}
+
+/* ===========================================================
+                        	IPAD
+   =========================================================== */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-max-device-pixel-ratio: 1) and (orientation : landscape) {
+	.top-container{
+		height: 96.5%;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-max-device-pixel-ratio: 1) and (orientation : portrait)  {
+	.top-container{
+		height: 99.5%;
+	}
+}
+
+/* ===========================================================
+                        	IPHONE 4 
+   =========================================================== */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2) and (orientation:landscape){
+	.logo-image{
+		max-width: 170px;
+	}
+
+	.slogan{
+		width: 80%;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2){	
+
+	.slogan{
+		font-size: 1.5em;
+	}
+
+	.scroll-to{
+		font-size: 1em;
+	}
+}
+
+/* ===========================================================
+                        	IPAD RETINA
+   =========================================================== */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio : 2) and (orientation:landscape){
+	.top-container{
+		height: 96%;
+	}
+
+	.logo{
+		height: 86%;
+	}
+
+	.left, .right{
+		width: 48%;
+	}
+
+	.slogan{
+		font-size: 3em;
+		width: 74%;
+	}
+
+	#colors ul.color-list li{
+		margin: 0;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio : 2) and (orientation:portrait){
+
+	.row{
+		min-height: 400px;
+	}
+
+	.left, .right{
+		width: 48%;
+	}
+
+	.left{
+		margin-left: 2%;
+		padding-right: 4em;
+		float: left;
+	}
+
+	.right{
+		margin-right: 2%;
+		float: right;
+	}
+
+	.block-inner{
+		text-align: center;
+		width: 90%;
+	}
+
+	.slogan{
+		font-size: 3em;
+		width: 90%;
+	}
+
+	#welcome{
+		background: $white url('../img/clouds-mobile.svg') right center no-repeat;
+		background-size: 480px;
+	}
+
+	#steps{
+
+		background-size: 460px;
+		min-height: 300px;
+
+		ul.step-list{
+
+			width: 100%;
+
+			li{
+				width: 33.33333333%;
+				float: left;
+				margin: 0;
+				padding: 0 4%;
+			}
+		}
+	}
+
+	#features{
+		ul.feature-list{
+			li{
+				float: left;
+				margin: 0 0 4em;
+				width: 50%;
+
+				.image{
+					float: left;
+					width: 25%;
+				}
+
+				.text{
+					float: right;
+					padding: 0.4em 10% 0 5%;
+					width: 75%;
+
+					h3{
+						color: $cream;
+					}
+
+					p{
+						margin: 0;
+					}
+				}		
+			}
+		}
+	}
+	
+	#designers{
+		background-size: 400px;
+		padding-top: 0;
+	}
+
+	#customization img{
+		content: url("../img/customization_1024.svg");
+		max-height: 460px;
+	}
+
+	#autor{
+		background-size: 540px;
+	}
+
+	#download{
+		.button{
+			margin-top: 2em;
+			position: relative;
+			float: left;
+			width: 30%;
+
+			img{
+				max-width: 360px;
+			}
+		}
+
+		div.button:first-of-type{
+			margin-left: 15%;
+			margin-right: 5%;
+		}
+
+		div.button + div.button{
+			margin-left: 5%;
+			margin-right: 15%;
+		}
+
+		a,input{
+			height: 40px;
+			margin-left: -70px;
+			padding: 0; 
+			width: 140px;
+		}
+	}
+
+	#social{
+		min-height: 560px;
+
+		.house{
+			display: block;
+		}
+
+		.left-third-house, .right-third-house{
+			display: none;
+		}
+
+		.social-list{
+			width: 460px;
+		}
+	}
+}
