@@ -952,14 +952,14 @@ img {
     font-size: 1.5em;
   }
 }
-@media only screen and (orientation: landscape) and (max-device-width: 1280px) {
+@media only screen and (max-device-width: 1280px) and (orientation: landscape){
   /* line 870, ../sass/capicon.scss */
-  .logo-image {
+  .mobile .logo-image {
     max-width: 150px;
   }
 
   /* line 874, ../sass/capicon.scss */
-  .logo {
+  .mobile .logo {
     height: 65%;
   }
 }
