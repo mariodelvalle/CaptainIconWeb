@@ -147,7 +147,12 @@ img{
 	top: -12px;
 }
 
-.border-before,.border-before-designers, .border-before-colors, .border-before-download{
+.border-before-donations{
+	background: none repeat scroll $white;
+	top: -12px;
+}
+
+.border-before,.border-before-designers, .border-before-colors, .border-before-download, .border-before-donations{
 	height: 20px;
 	display: block;
 	transform: rotate(-0.5deg); 
@@ -591,6 +596,32 @@ img{
 }
 
 /* ===========================================================
+                        	DONATIONS LIST
+   =========================================================== */
+
+#donations-list{
+	p{
+		margin: 0.6em 0;
+		text-align: center;
+	}
+
+	li:first-of-type{
+		p{
+			margin-top: 2em;
+		}	
+	}
+
+	p.thanks{
+		color: $quote;
+		display: block;
+		font-family: 'proxima_nova_light';
+		font-size: 120%;
+		font-style: italic;
+		padding: 0 0 2em;
+	}
+}
+
+/* ===========================================================
                         	SOCIAL
    =========================================================== */
 
@@ -610,6 +641,7 @@ img{
 
 #social{
 	background: $light-red url('../img/city.svg') left bottom repeat-x;
+	margin-top: -20px;
 	min-height: 560px;
 	overflow: hidden;
 
