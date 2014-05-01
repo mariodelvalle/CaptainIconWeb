@@ -195,7 +195,13 @@ img {
 }
 
 /* line 150, ../sass/capicon.scss */
-.border-before, .border-before-designers, .border-before-colors, .border-before-download {
+.border-before-donations {
+  background: none repeat scroll white;
+  top: -12px;
+}
+
+/* line 150, ../sass/capicon.scss */
+.border-before, .border-before-designers, .border-before-colors, .border-before-download,.border-before-donations  {
   height: 20px;
   display: block;
   transform: rotate(-0.5deg);
@@ -643,6 +649,28 @@ img {
 #download a:hover, #download input:hover {
   background: #bddbad;
   box-shadow: 0 5px #a4d191;
+}
+
+/* ===========================================================
+                        	DONATIONS LIST
+   =========================================================== */
+/* line 603, ../sass/capicon.scss */
+#donations-list p {
+  margin: 0.6em 0;
+  text-align: center;
+}
+/* line 609, ../sass/capicon.scss */
+#donations-list li:first-of-type p {
+  margin-top: 2em;
+}
+/* line 614, ../sass/capicon.scss */
+#donations-list p.thanks {
+  color: silver;
+  display: block;
+  font-family: 'proxima_nova_light';
+  font-size: 120%;
+  font-style: italic;
+  padding: 0 0 2em;
 }
 
 /* ===========================================================
