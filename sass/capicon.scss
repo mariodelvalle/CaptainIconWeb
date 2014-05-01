@@ -68,7 +68,7 @@ img{
 	width: 100%;
 }
 
-#features h2, #features p, #autor h2, #autor p, #social h2, .slogan, .scroll-to, .vector-icons{
+#features h2, #features p, #autor h2, #autor p, #social h2, .slogan, .scroll-to, .vector-icons, .top-bar span, .top-bar a{
 	color: $white;
 }
 
@@ -198,13 +198,52 @@ img{
 	height: 99%;
 	position: relative;
 	width: 100%;
-	margin: 0;
+	margin: -40px 0 0;
+	z-index: 10;
+}
+
+.top-bar{
+	background: rgba(0,0,0,0.1);
+	position: relative;
+	height: 40px;
+	width: 100%;
+	z-index: 11;
+
+	.top-bar-inner{
+		padding-top: 7px;
+		width: 350px;
+		overflow: auto;
+		margin: auto;
+  		position: absolute;
+  		top: 0; left: 0; bottom: 0; right: 0;
+	}
+
+	span, a{
+		font-family: 'proxima_nova_light', sans-serif, Arial;
+		font-size: 1.2em;
+	}
+	
+	span, ul, a{
+		float: left;
+	}
+
+	ul{
+		margin-left: 1em;
+
+		span,a{
+			padding: 0 3px;
+		}
+
+		a{
+			text-decoration: none;
+		}
+	}
 }
 
 .logo{
 	margin: auto;
 	position: absolute;
-	top: 0;
+	top: 40px;
 	left: 0;
 	bottom: 0;
 	right: 0;
@@ -843,7 +882,7 @@ img{
 	}
 
 	#social{
-		min-height: 400px;
+		min-height: 460px;
 
 		.house{
 			display: none;
@@ -967,6 +1006,10 @@ img{
 	.slogan{
 		width: 80%;
 	}
+
+	.scroll-to{
+		display: none;
+	}
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2){	
@@ -975,8 +1018,16 @@ img{
 		font-size: 1.5em;
 	}
 
-	.scroll-to{
+	.top-bar span, .top-bar a, .scroll-to{
 		font-size: 1em;
+	}
+
+	.top-bar .top-bar-inner{
+		width: 90%;
+	}
+
+	.scroll-to{
+		bottom: 20px;
 	}
 }
 

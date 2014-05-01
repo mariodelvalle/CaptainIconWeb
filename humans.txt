@@ -1,6 +1,17 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
+# DONATIONS
+	
+	Thank you all for appreciating so much the hard work done on this product to the point of paying for it. I Hope you enjoy it! 
+
+	Sebastian Hermida (@sbastn)
+	Manuel Jesús Recena Soto (@recena)
+	Atle Lillehovde (@atlelill)
+	Gabor Meszoly (@gabormeszoly)
+	Nils Schirmer
+	K Media Ltd
+
 # TEAM
 
     Mario del Valle Guijarro -- Designer & Illustrator  -- @maduil
@@ -13,9 +24,15 @@
 
 	My girlfriend Sandra for supporting me in all the process and always trust my.
 
-	To Mario de Frutos Dieguez, Javier Gamarra Olmedo and Jorge Maroto García support me in this project without asking anything in return and to encourage me at all times.
+	To Mario de Frutos Dieguez (@ethervoid), Javier Gamarra Olmedo (@nhpatt) and Jorge Maroto García (@patoroco) support me in this project without asking anything in return and to encourage me at all times.
 
 	My users that share this project without stopping and they are the piece important thing to design, User Interface Design, Forever :)
+
+# TEAMWORK & REVIEWS
+	
+	Thank you all for supporting as voluntaries for improve this project.
+
+	Carlos Puchol have collaborated in the work of improving text translation to english.
 
 # TECHNOLOGY COLOPHON
 
