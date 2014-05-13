@@ -654,72 +654,77 @@ img {
 /* ===========================================================
                         	DONATIONS LIST
    =========================================================== */
-/* line 603, ../sass/capicon.scss */
+/* line 604, ../sass/capicon.scss */
+#donations-list h2 {
+  padding: 0.5em 0;
+}
+/* line 608, ../sass/capicon.scss */
 #donations-list p {
   margin: 0.6em 0;
   text-align: center;
 }
-/* line 609, ../sass/capicon.scss */
-#donations-list li:first-of-type p {
-  margin-top: 2em;
+/* line 613, ../sass/capicon.scss */
+#donations-list li {
+  float: left;
+  width: 33.333333%;
 }
-/* line 614, ../sass/capicon.scss */
+/* line 619, ../sass/capicon.scss */
 #donations-list p.thanks {
   color: silver;
   display: block;
   font-family: 'proxima_nova_light';
   font-size: 120%;
   font-style: italic;
-  padding: 0 0 2em;
+  padding: 2em 0;
 }
 
 /* ===========================================================
                         	SOCIAL
    =========================================================== */
 @-webkit-keyframes clouds {
-  /* line 629, ../sass/capicon.scss */
+  /* line 634, ../sass/capicon.scss */
   0% {
     -webkit-transform: translate(0, 0px);
   }
 
-  /* line 630, ../sass/capicon.scss */
+  /* line 635, ../sass/capicon.scss */
   100% {
     -webkit-transform: translate(1440px, 0);
   }
 }
 
 @-moz-keyframes clouds {
-  /* line 634, ../sass/capicon.scss */
+  /* line 639, ../sass/capicon.scss */
   0% {
     transform: translate(0, 0px);
   }
 
-  /* line 635, ../sass/capicon.scss */
+  /* line 640, ../sass/capicon.scss */
   100% {
     transform: translate(1440px, 0);
   }
 }
 
 @keyframes clouds {
-  /* line 638, ../sass/capicon.scss */
+  /* line 643, ../sass/capicon.scss */
   0% {
     transform: translate(0, 0px);
   }
 
-  /* line 639, ../sass/capicon.scss */
+  /* line 644, ../sass/capicon.scss */
   100% {
     transform: translate(1440px, 0);
   }
 }
 
-/* line 642, ../sass/capicon.scss */
+/* line 647, ../sass/capicon.scss */
 #social {
   background: #e18d87 url("../img/city.svg") left bottom repeat-x;
   margin-top: -20px;
   min-height: 560px;
   overflow: hidden;
 }
-/* line 648, ../sass/capicon.scss */
+/* line 653, ../sass/capicon.scss */
 #social .clouds {
   background: url("../img/clouds-city.svg");
   background-repeat: repeat-x;
@@ -733,85 +738,85 @@ img {
   z-index: 0;
   animation: clouds 300s linear infinite;
 }
-/* line 660, ../sass/capicon.scss */
+/* line 665, ../sass/capicon.scss */
 #social .house {
   height: 100%;
   position: absolute;
   top: 0;
 }
-/* line 666, ../sass/capicon.scss */
+/* line 671, ../sass/capicon.scss */
 #social .left-first-house {
   background: url("../img/left-first-house.svg") left top no-repeat;
   right: 90%;
   width: 192px;
   z-index: 3;
 }
-/* line 673, ../sass/capicon.scss */
+/* line 678, ../sass/capicon.scss */
 #social .left-second-house {
   background: url("../img/left-second-house.svg") left top no-repeat;
   right: 80%;
   width: 274px;
   z-index: 2;
 }
-/* line 680, ../sass/capicon.scss */
+/* line 685, ../sass/capicon.scss */
 #social .left-third-house {
   background: url("../img/left-third-house.svg") left top no-repeat;
   right: 70%;
   width: 384px;
   z-index: 1;
 }
-/* line 687, ../sass/capicon.scss */
+/* line 692, ../sass/capicon.scss */
 #social .right-first-house {
   background: url("../img/right-first-house.svg") right top no-repeat;
   left: 86%;
   width: 270px;
   z-index: 6;
 }
-/* line 694, ../sass/capicon.scss */
+/* line 699, ../sass/capicon.scss */
 #social .right-second-house {
   background: url("../img/right-second-house.svg") right top no-repeat;
   left: 78%;
   width: 164px;
   z-index: 5;
 }
-/* line 701, ../sass/capicon.scss */
+/* line 706, ../sass/capicon.scss */
 #social .right-third-house {
   background: url("../img/right-third-house.svg") right top no-repeat;
   left: 70%;
   width: 384px;
   z-index: 4;
 }
-/* line 708, ../sass/capicon.scss */
+/* line 713, ../sass/capicon.scss */
 #social .block-inner {
   padding-top: 40px;
   position: relative;
   z-index: 7;
 }
-/* line 714, ../sass/capicon.scss */
+/* line 719, ../sass/capicon.scss */
 #social h2 {
   padding-bottom: 0.5em;
 }
-/* line 718, ../sass/capicon.scss */
+/* line 723, ../sass/capicon.scss */
 #social .social-list {
   margin: 0 auto;
   overflow: auto;
   padding: 0;
   width: 460px;
 }
-/* line 724, ../sass/capicon.scss */
+/* line 729, ../sass/capicon.scss */
 #social .social-list li {
   float: left;
   width: 25%;
 }
-/* line 728, ../sass/capicon.scss */
+/* line 733, ../sass/capicon.scss */
 #social .social-list li a {
   outline: none;
 }
-/* line 733, ../sass/capicon.scss */
+/* line 738, ../sass/capicon.scss */
 #social .social-list img {
   max-width: 70px;
 }
-/* line 736, ../sass/capicon.scss */
+/* line 741, ../sass/capicon.scss */
 #social .social-list img:hover {
   max-width: 80px;
   transition: all 0.4s ease;
@@ -820,217 +825,223 @@ img {
 /* ===========================================================
                         	MOBILE
    =========================================================== */
-/* line 749, ../sass/capicon.scss */
+/* line 754, ../sass/capicon.scss */
 .mobile .block {
   margin-top: 1.5em;
   opacity: 1;
 }
 
 @media only screen and (max-width: 960px) {
-  /* line 757, ../sass/capicon.scss */
+  /* line 762, ../sass/capicon.scss */
   h2 {
     font-size: 2.8em;
   }
 
-  /* line 761, ../sass/capicon.scss */
+  /* line 766, ../sass/capicon.scss */
   p {
     font-size: 1.2em;
   }
 
-  /* line 765, ../sass/capicon.scss */
+  /* line 770, ../sass/capicon.scss */
   .block {
     height: auto;
     margin-top: 150px;
     padding: 0 .5em;
   }
 
-  /* line 771, ../sass/capicon.scss */
+  /* line 776, ../sass/capicon.scss */
   .block-inner {
     width: 100%;
   }
 
-  /* line 775, ../sass/capicon.scss */
+  /* line 780, ../sass/capicon.scss */
   .active .block {
     margin-top: 50px;
   }
 
-  /* line 779, ../sass/capicon.scss */
+  /* line 784, ../sass/capicon.scss */
   .active .left, .left {
     margin-left: 0;
   }
 
-  /* line 783, ../sass/capicon.scss */
+  /* line 788, ../sass/capicon.scss */
   .active .right, .right {
     margin-right: 0;
     margin-bottom: 100px;
   }
 
-  /* line 788, ../sass/capicon.scss */
+  /* line 793, ../sass/capicon.scss */
   .left {
     padding-right: 0;
   }
 
-  /* line 792, ../sass/capicon.scss */
+  /* line 797, ../sass/capicon.scss */
   .right {
     margin-bottom: 50px;
   }
 
-  /* line 796, ../sass/capicon.scss */
+  /* line 801, ../sass/capicon.scss */
   .left, .right {
     float: none;
     width: 100%;
   }
 
-  /* line 801, ../sass/capicon.scss */
+  /* line 806, ../sass/capicon.scss */
   .top-container {
     background-size: 120%;
   }
 
-  /* line 805, ../sass/capicon.scss */
+  /* line 810, ../sass/capicon.scss */
   .logo-image {
     max-width: 440px;
   }
 
-  /* line 809, ../sass/capicon.scss */
+  /* line 814, ../sass/capicon.scss */
   .slogan {
     width: 100%;
   }
 
-  /* line 813, ../sass/capicon.scss */
+  /* line 818, ../sass/capicon.scss */
   #welcome {
     background: white url("../img/clouds-mobile.svg") no-repeat;
     background-position: center 80%;
     background-size: 100%;
   }
 
-  /* line 819, ../sass/capicon.scss */
+  /* line 824, ../sass/capicon.scss */
   #steps ul.step-list {
     margin: 0 auto;
     width: 60%;
   }
-  /* line 823, ../sass/capicon.scss */
+  /* line 828, ../sass/capicon.scss */
   #steps ul.step-list li {
     padding: 0;
     width: 100%;
   }
 
-  /* line 829, ../sass/capicon.scss */
+  /* line 834, ../sass/capicon.scss */
   #features .block {
     margin-top: 100px;
   }
 
-  /* line 833, ../sass/capicon.scss */
+  /* line 838, ../sass/capicon.scss */
   #features ul.feature-list li {
     width: 100%;
   }
-  /* line 836, ../sass/capicon.scss */
+  /* line 841, ../sass/capicon.scss */
   #features ul.feature-list li h3 {
     font-size: 2.4em;
     text-align: center;
   }
-  /* line 841, ../sass/capicon.scss */
+  /* line 846, ../sass/capicon.scss */
   #features ul.feature-list li .image img {
     max-width: 150px;
     margin-bottom: 1em;
   }
-  /* line 846, ../sass/capicon.scss */
+  /* line 851, ../sass/capicon.scss */
   #features ul.feature-list li .image, #features ul.feature-list li .text {
     float: none;
     width: 100%;
   }
-  /* line 851, ../sass/capicon.scss */
+  /* line 856, ../sass/capicon.scss */
   #features ul.feature-list li .text {
     padding: 0;
   }
 
-  /* line 856, ../sass/capicon.scss */
+  /* line 861, ../sass/capicon.scss */
   #designers {
     background-size: auto;
     padding-top: 330px;
   }
-  /* line 861, ../sass/capicon.scss */
+  /* line 866, ../sass/capicon.scss */
   #designers .right {
     margin-bottom: 50px;
   }
 
-  /* line 868, ../sass/capicon.scss */
+  /* line 873, ../sass/capicon.scss */
   #colors h3.select {
     font-size: 2em;
   }
-  /* line 872, ../sass/capicon.scss */
+  /* line 877, ../sass/capicon.scss */
   #colors #icon {
     margin-top: 0;
     width: 90%;
   }
-  /* line 877, ../sass/capicon.scss */
+  /* line 882, ../sass/capicon.scss */
   #colors ul.color-list {
     margin-bottom: 0em;
   }
-  /* line 880, ../sass/capicon.scss */
+  /* line 885, ../sass/capicon.scss */
   #colors ul.color-list li {
     margin: 0 5px 1em 0;
   }
-  /* line 885, ../sass/capicon.scss */
+  /* line 890, ../sass/capicon.scss */
   #colors .right {
     margin-top: 0;
   }
 
-  /* line 890, ../sass/capicon.scss */
+  /* line 895, ../sass/capicon.scss */
   #autor {
     padding-bottom: 12em;
   }
 
-  /* line 895, ../sass/capicon.scss */
+  /* line 900, ../sass/capicon.scss */
   #download .button {
     float: none;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
   }
-  /* line 901, ../sass/capicon.scss */
+  /* line 906, ../sass/capicon.scss */
   #download .button img {
     max-width: 300px;
   }
-  /* line 906, ../sass/capicon.scss */
+  /* line 911, ../sass/capicon.scss */
   #download div.button:first-of-type {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 911, ../sass/capicon.scss */
+  /* line 916, ../sass/capicon.scss */
   #download div.button + div.button {
     margin-left: 0;
   }
 
-  /* line 916, ../sass/capicon.scss */
+  /* line 922, ../sass/capicon.scss */
+  #donations-list li {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 928, ../sass/capicon.scss */
   #social {
     min-height: 460px;
   }
-  /* line 919, ../sass/capicon.scss */
+  /* line 931, ../sass/capicon.scss */
   #social .house {
     display: none;
   }
-  /* line 923, ../sass/capicon.scss */
+  /* line 935, ../sass/capicon.scss */
   #social .social-list {
     width: 100%;
   }
-  /* line 926, ../sass/capicon.scss */
+  /* line 938, ../sass/capicon.scss */
   #social .social-list li {
     padding: 0 2%;
   }
 }
 @media only screen and (max-device-width: 960px) {
-  /* line 934, ../sass/capicon.scss */
+  /* line 946, ../sass/capicon.scss */
   .slogan {
     font-size: 1.5em;
   }
 }
-@media only screen and (orientation: landscape) and (max-device-width: 1280px) {
-  /* line 941, ../sass/capicon.scss */
+@media only screen and (orientation: landscape) and (max-device-width: 1280px) and (min-resolution: 192dpi) {
+  /* line 953, ../sass/capicon.scss */
   .logo-image {
     max-width: 150px;
   }
 
-  /* line 945, ../sass/capicon.scss */
+  /* line 957, ../sass/capicon.scss */
   .logo {
     height: 65%;
   }
@@ -1039,62 +1050,62 @@ img {
                         DESKTOPS AND LAPTOPS
    =========================================================== */
 @media only screen and (min-width: 960px) and (max-width: 1280px) {
-  /* line 956, ../sass/capicon.scss */
+  /* line 968, ../sass/capicon.scss */
   .active .block {
     margin-top: 50px;
   }
 
-  /* line 960, ../sass/capicon.scss */
+  /* line 972, ../sass/capicon.scss */
   .block-inner {
     width: 90%;
   }
 
-  /* line 965, ../sass/capicon.scss */
+  /* line 977, ../sass/capicon.scss */
   #steps .section-desc {
     margin: 1em auto;
     width: 80%;
   }
 
-  /* line 971, ../sass/capicon.scss */
+  /* line 983, ../sass/capicon.scss */
   #features h2 {
     padding: 0.5em 0;
   }
 
-  /* line 975, ../sass/capicon.scss */
+  /* line 987, ../sass/capicon.scss */
   #designers {
     background: transparent url("../img/designers_1280.svg") left top no-repeat;
   }
 
-  /* line 979, ../sass/capicon.scss */
+  /* line 991, ../sass/capicon.scss */
   #customization img {
     content: url("../img/customization_1024.svg");
     max-height: 460px;
   }
 
-  /* line 984, ../sass/capicon.scss */
+  /* line 996, ../sass/capicon.scss */
   #colors h3.select {
     font-size: 260%;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1400px) {
-  /* line 991, ../sass/capicon.scss */
+  /* line 1003, ../sass/capicon.scss */
   .logo-image {
     max-width: 440px;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1400px) {
-  /* line 998, ../sass/capicon.scss */
+  /* line 1010, ../sass/capicon.scss */
   .slogan {
     width: 70%;
   }
 
-  /* line 1002, ../sass/capicon.scss */
+  /* line 1014, ../sass/capicon.scss */
   .left-third-house, .right-third-house {
     display: none;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
-  /* line 1008, ../sass/capicon.scss */
+  /* line 1020, ../sass/capicon.scss */
   .slogan {
     width: 50%;
   }
@@ -1103,13 +1114,13 @@ img {
                         	IPAD
    =========================================================== */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-max-device-pixel-ratio: 1) and (orientation: landscape) {
-  /* line 1018, ../sass/capicon.scss */
+  /* line 1030, ../sass/capicon.scss */
   .top-container {
     height: 96.5%;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-max-device-pixel-ratio: 1) and (orientation: portrait) {
-  /* line 1024, ../sass/capicon.scss */
+  /* line 1036, ../sass/capicon.scss */
   .top-container {
     height: 99.5%;
   }
@@ -1118,38 +1129,43 @@ img {
                         	IPHONE 4 
    =========================================================== */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 1034, ../sass/capicon.scss */
+  /* line 1046, ../sass/capicon.scss */
   .logo-image {
     max-width: 170px;
   }
 
-  /* line 1038, ../sass/capicon.scss */
+  /* line 1050, ../sass/capicon.scss */
   .slogan {
     width: 80%;
   }
 
-  /* line 1042, ../sass/capicon.scss */
+  /* line 1054, ../sass/capicon.scss */
   .scroll-to {
     display: none;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 1049, ../sass/capicon.scss */
+  /* line 1061, ../sass/capicon.scss */
+  .logo-image {
+    max-width: 200px;
+  }
+
+  /* line 1065, ../sass/capicon.scss */
   .slogan {
     font-size: 1.5em;
   }
 
-  /* line 1053, ../sass/capicon.scss */
+  /* line 1069, ../sass/capicon.scss */
   .top-bar span, .top-bar a, .scroll-to {
     font-size: 1em;
   }
 
-  /* line 1057, ../sass/capicon.scss */
+  /* line 1073, ../sass/capicon.scss */
   .top-bar .top-bar-inner {
     width: 90%;
   }
 
-  /* line 1061, ../sass/capicon.scss */
+  /* line 1077, ../sass/capicon.scss */
   .scroll-to {
     bottom: 20px;
   }
@@ -1158,84 +1174,84 @@ img {
                         	IPAD RETINA
    =========================================================== */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 1071, ../sass/capicon.scss */
+  /* line 1087, ../sass/capicon.scss */
   .top-container {
     height: 96%;
   }
 
-  /* line 1075, ../sass/capicon.scss */
+  /* line 1091, ../sass/capicon.scss */
   .logo {
     height: 86%;
   }
 
-  /* line 1079, ../sass/capicon.scss */
+  /* line 1095, ../sass/capicon.scss */
   .left, .right {
     width: 48%;
   }
 
-  /* line 1083, ../sass/capicon.scss */
+  /* line 1099, ../sass/capicon.scss */
   .slogan {
     font-size: 3em;
     width: 74%;
   }
 
-  /* line 1088, ../sass/capicon.scss */
+  /* line 1104, ../sass/capicon.scss */
   #colors ul.color-list li {
     margin: 0;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 1095, ../sass/capicon.scss */
+  /* line 1111, ../sass/capicon.scss */
   .row {
     min-height: 400px;
   }
 
-  /* line 1099, ../sass/capicon.scss */
+  /* line 1115, ../sass/capicon.scss */
   .left, .right {
     width: 48%;
   }
 
-  /* line 1103, ../sass/capicon.scss */
+  /* line 1119, ../sass/capicon.scss */
   .left {
     margin-left: 2%;
     padding-right: 4em;
     float: left;
   }
 
-  /* line 1109, ../sass/capicon.scss */
+  /* line 1125, ../sass/capicon.scss */
   .right {
     margin-right: 2%;
     float: right;
   }
 
-  /* line 1114, ../sass/capicon.scss */
+  /* line 1130, ../sass/capicon.scss */
   .block-inner {
     text-align: center;
     width: 90%;
   }
 
-  /* line 1119, ../sass/capicon.scss */
+  /* line 1135, ../sass/capicon.scss */
   .slogan {
     font-size: 3em;
     width: 90%;
   }
 
-  /* line 1124, ../sass/capicon.scss */
+  /* line 1140, ../sass/capicon.scss */
   #welcome {
     background: white url("../img/clouds-mobile.svg") right center no-repeat;
     background-size: 480px;
   }
 
-  /* line 1129, ../sass/capicon.scss */
+  /* line 1145, ../sass/capicon.scss */
   #steps {
     background-size: 460px;
     min-height: 300px;
   }
-  /* line 1134, ../sass/capicon.scss */
+  /* line 1150, ../sass/capicon.scss */
   #steps ul.step-list {
     width: 100%;
   }
-  /* line 1138, ../sass/capicon.scss */
+  /* line 1154, ../sass/capicon.scss */
   #steps ul.step-list li {
     width: 33.33333333%;
     float: left;
@@ -1243,71 +1259,71 @@ img {
     padding: 0 4%;
   }
 
-  /* line 1149, ../sass/capicon.scss */
+  /* line 1165, ../sass/capicon.scss */
   #features ul.feature-list li {
     float: left;
     margin: 0 0 4em;
     width: 50%;
   }
-  /* line 1154, ../sass/capicon.scss */
+  /* line 1170, ../sass/capicon.scss */
   #features ul.feature-list li .image {
     float: left;
     width: 25%;
   }
-  /* line 1159, ../sass/capicon.scss */
+  /* line 1175, ../sass/capicon.scss */
   #features ul.feature-list li .text {
     float: right;
     padding: 0.4em 10% 0 5%;
     width: 75%;
   }
-  /* line 1164, ../sass/capicon.scss */
+  /* line 1180, ../sass/capicon.scss */
   #features ul.feature-list li .text h3 {
     color: #f6e5d0;
   }
-  /* line 1168, ../sass/capicon.scss */
+  /* line 1184, ../sass/capicon.scss */
   #features ul.feature-list li .text p {
     margin: 0;
   }
 
-  /* line 1176, ../sass/capicon.scss */
+  /* line 1192, ../sass/capicon.scss */
   #designers {
     background-size: 400px;
     padding-top: 0;
   }
 
-  /* line 1181, ../sass/capicon.scss */
+  /* line 1197, ../sass/capicon.scss */
   #customization img {
     content: url("../img/customization_1024.svg");
     max-height: 460px;
   }
 
-  /* line 1186, ../sass/capicon.scss */
+  /* line 1202, ../sass/capicon.scss */
   #autor {
     background-size: 540px;
   }
 
-  /* line 1191, ../sass/capicon.scss */
+  /* line 1207, ../sass/capicon.scss */
   #download .button {
     margin-top: 2em;
     position: relative;
     float: left;
     width: 30%;
   }
-  /* line 1197, ../sass/capicon.scss */
+  /* line 1213, ../sass/capicon.scss */
   #download .button img {
     max-width: 360px;
   }
-  /* line 1202, ../sass/capicon.scss */
+  /* line 1218, ../sass/capicon.scss */
   #download div.button:first-of-type {
     margin-left: 15%;
     margin-right: 5%;
   }
-  /* line 1207, ../sass/capicon.scss */
+  /* line 1223, ../sass/capicon.scss */
   #download div.button + div.button {
     margin-left: 5%;
     margin-right: 15%;
   }
-  /* line 1212, ../sass/capicon.scss */
+  /* line 1228, ../sass/capicon.scss */
   #download a, #download input {
     height: 40px;
     margin-left: -70px;
@@ -1315,19 +1331,25 @@ img {
     width: 140px;
   }
 
-  /* line 1220, ../sass/capicon.scss */
+  /* line 1237, ../sass/capicon.scss */
+  #donations-list li {
+    float: left;
+    width: 33.333333%;
+  }
+
+  /* line 1243, ../sass/capicon.scss */
   #social {
     min-height: 560px;
   }
-  /* line 1223, ../sass/capicon.scss */
+  /* line 1246, ../sass/capicon.scss */
   #social .house {
     display: block;
   }
-  /* line 1227, ../sass/capicon.scss */
+  /* line 1250, ../sass/capicon.scss */
   #social .left-third-house, #social .right-third-house {
     display: none;
   }
-  /* line 1231, ../sass/capicon.scss */
+  /* line 1254, ../sass/capicon.scss */
   #social .social-list {
     width: 460px;
   }

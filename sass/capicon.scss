@@ -600,15 +600,20 @@ img{
    =========================================================== */
 
 #donations-list{
+
+	h2{
+		padding: 0.5em 0;
+	}
+
 	p{
 		margin: 0.6em 0;
 		text-align: center;
 	}
 
-	li:first-of-type{
-		p{
-			margin-top: 2em;
-		}	
+	li{
+
+		float: left;
+		width: 33.333333%;
 	}
 
 	p.thanks{
@@ -617,7 +622,7 @@ img{
 		font-family: 'proxima_nova_light';
 		font-size: 120%;
 		font-style: italic;
-		padding: 0 0 2em;
+		padding: 2em 0;
 	}
 }
 
@@ -803,7 +808,7 @@ img{
 	}
 
 	.logo-image{
-		max-width: 80%;
+		max-width: 440px;
 	}
 
 	.slogan{
@@ -913,6 +918,13 @@ img{
 		}
 	}
 
+	#donations-list{
+		li{
+			float: none;
+			width: 100%;	
+		}
+	}
+
 	#social{
 		min-height: 460px;
 
@@ -936,7 +948,7 @@ img{
 	}
 }
 
-@media only screen and (orientation : landscape) and (max-device-width: 1280px){
+@media only screen and (orientation : landscape) and (max-device-width: 1280px) and (min-resolution: 192dpi){
 
 	.logo-image{
 		max-width: 150px;
@@ -1045,6 +1057,10 @@ img{
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2){	
+
+	.logo-image{
+		max-width: 200px;
+	}
 
 	.slogan{
 		font-size: 1.5em;
@@ -1214,6 +1230,13 @@ img{
 			margin-left: -70px;
 			padding: 0; 
 			width: 140px;
+		}
+	}
+
+	#donations-list{
+		li{
+			float: left;
+			width: 33.333333%;	
 		}
 	}
 
