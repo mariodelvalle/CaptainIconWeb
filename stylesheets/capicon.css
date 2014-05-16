@@ -84,123 +84,128 @@ p {
 }
 
 /* line 57, ../sass/capicon.scss */
+a {
+  color: #77a5b2;
+}
+
+/* line 61, ../sass/capicon.scss */
 b {
   letter-spacing: -0.02em;
 }
 
-/* line 61, ../sass/capicon.scss */
+/* line 65, ../sass/capicon.scss */
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 67, ../sass/capicon.scss */
+/* line 71, ../sass/capicon.scss */
 img {
   width: 100%;
 }
 
-/* line 71, ../sass/capicon.scss */
+/* line 75, ../sass/capicon.scss */
 #features h2, #features p, #autor h2, #autor p, #social h2, .slogan, .scroll-to, .vector-icons, .top-bar span, .top-bar a {
   color: white;
 }
 
-/* line 75, ../sass/capicon.scss */
+/* line 79, ../sass/capicon.scss */
 .section-desc {
   text-align: center;
 }
 
-/* line 79, ../sass/capicon.scss */
+/* line 83, ../sass/capicon.scss */
 .row {
   min-height: 540px;
   padding: 10px;
   position: relative;
 }
 
-/* line 85, ../sass/capicon.scss */
+/* line 89, ../sass/capicon.scss */
 .block {
   margin-top: 200px;
   opacity: 0;
   transition: all 0.4s ease;
 }
 
-/* line 91, ../sass/capicon.scss */
+/* line 95, ../sass/capicon.scss */
 .left, .right {
   width: 42.5%;
 }
-/* line 94, ../sass/capicon.scss */
+/* line 98, ../sass/capicon.scss */
 .left img, .right img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 100, ../sass/capicon.scss */
+/* line 104, ../sass/capicon.scss */
 .left {
   margin-left: 2%;
   padding-right: 4em;
   float: left;
 }
 
-/* line 106, ../sass/capicon.scss */
+/* line 110, ../sass/capicon.scss */
 .right {
   margin-right: 2%;
   float: right;
 }
 
-/* line 111, ../sass/capicon.scss */
+/* line 115, ../sass/capicon.scss */
 .active .left {
   margin-left: 6%;
 }
 
-/* line 115, ../sass/capicon.scss */
+/* line 119, ../sass/capicon.scss */
 .active .right {
   margin-right: 6%;
 }
 
-/* line 119, ../sass/capicon.scss */
+/* line 123, ../sass/capicon.scss */
 .active .block {
   margin-top: 100px;
   opacity: 1;
 }
 
-/* line 124, ../sass/capicon.scss */
+/* line 128, ../sass/capicon.scss */
 .block-inner {
   margin: 200px auto 0;
   text-align: center;
   width: 80%;
 }
 
-/* line 130, ../sass/capicon.scss */
+/* line 134, ../sass/capicon.scss */
 .border-before {
   background: none repeat scroll #eaf0f4;
   top: 13px;
 }
 
-/* line 135, ../sass/capicon.scss */
+/* line 139, ../sass/capicon.scss */
 .border-before-designers {
   background: none repeat scroll #e18d87;
   top: -30px;
 }
 
-/* line 140, ../sass/capicon.scss */
+/* line 144, ../sass/capicon.scss */
 .border-before-colors {
   background: none repeat scroll #e6c7b9;
   top: -12px;
 }
 
-/* line 145, ../sass/capicon.scss */
+/* line 149, ../sass/capicon.scss */
 .border-before-download {
   background: none repeat scroll #bfe1dd;
   top: -12px;
 }
 
-/* line 150, ../sass/capicon.scss */
+/* line 154, ../sass/capicon.scss */
 .border-before-donations {
   background: none repeat scroll white;
   top: -12px;
 }
 
-/* line 155, ../sass/capicon.scss */
+/* line 159, ../sass/capicon.scss */
 .border-before, .border-before-designers, .border-before-colors, .border-before-download, .border-before-donations {
   height: 20px;
   display: block;
@@ -210,7 +215,7 @@ img {
   position: relative;
 }
 
-/* line 165, ../sass/capicon.scss */
+/* line 169, ../sass/capicon.scss */
 .border-after, .border-after-designers, .border-after-colors {
   height: 40px;
   display: block;
@@ -220,30 +225,30 @@ img {
   z-index: 10;
 }
 
-/* line 174, ../sass/capicon.scss */
+/* line 178, ../sass/capicon.scss */
 .border-after {
   background: none repeat scroll #f2f6f7;
   bottom: -15px;
 }
 
-/* line 179, ../sass/capicon.scss */
+/* line 183, ../sass/capicon.scss */
 .border-after-designers {
   background: none repeat scroll #f2ece6;
   bottom: -30px;
 }
 
-/* line 184, ../sass/capicon.scss */
+/* line 188, ../sass/capicon.scss */
 .border-after-colors {
   background: none repeat scroll #bfe1dd;
   bottom: -25px;
 }
 
-/* line 189, ../sass/capicon.scss */
+/* line 193, ../sass/capicon.scss */
 .highlight {
   color: #dfb7a5;
 }
 
-/* line 193, ../sass/capicon.scss */
+/* line 197, ../sass/capicon.scss */
 .clear {
   clear: both;
 }
@@ -251,7 +256,7 @@ img {
 /* ===========================================================
                             TOP CONTAINER
    =========================================================== */
-/* line 201, ../sass/capicon.scss */
+/* line 205, ../sass/capicon.scss */
 .top-container {
   background: #e18d87 url("../img/background.svg") center -60px repeat;
   height: 99%;
@@ -261,7 +266,7 @@ img {
   z-index: 10;
 }
 
-/* line 210, ../sass/capicon.scss */
+/* line 214, ../sass/capicon.scss */
 .top-bar {
   background: rgba(0, 0, 0, 0.1);
   position: relative;
@@ -269,7 +274,7 @@ img {
   width: 100%;
   z-index: 11;
 }
-/* line 217, ../sass/capicon.scss */
+/* line 221, ../sass/capicon.scss */
 .top-bar .top-bar-inner {
   padding-top: 7px;
   width: 350px;
@@ -281,29 +286,29 @@ img {
   bottom: 0;
   right: 0;
 }
-/* line 226, ../sass/capicon.scss */
+/* line 230, ../sass/capicon.scss */
 .top-bar span, .top-bar a {
   font-family: 'proxima_nova_light', sans-serif, Arial;
   font-size: 1.2em;
 }
-/* line 231, ../sass/capicon.scss */
+/* line 235, ../sass/capicon.scss */
 .top-bar span, .top-bar ul, .top-bar a {
   float: left;
 }
-/* line 235, ../sass/capicon.scss */
+/* line 239, ../sass/capicon.scss */
 .top-bar ul {
   margin-left: 1em;
 }
-/* line 238, ../sass/capicon.scss */
+/* line 242, ../sass/capicon.scss */
 .top-bar ul span, .top-bar ul a {
   padding: 0 3px;
 }
-/* line 242, ../sass/capicon.scss */
+/* line 246, ../sass/capicon.scss */
 .top-bar ul a {
   text-decoration: none;
 }
 
-/* line 248, ../sass/capicon.scss */
+/* line 252, ../sass/capicon.scss */
 .logo {
   margin: auto;
   position: absolute;
@@ -317,7 +322,7 @@ img {
   text-align: center;
 }
 
-/* line 261, ../sass/capicon.scss */
+/* line 265, ../sass/capicon.scss */
 .logo-image {
   display: block;
   margin: 0 auto;
@@ -325,7 +330,7 @@ img {
   max-width: 600px;
 }
 
-/* line 268, ../sass/capicon.scss */
+/* line 272, ../sass/capicon.scss */
 .slogan {
   font-family: 'populaire';
   font-size: 3em;
@@ -336,7 +341,7 @@ img {
   margin: 0 auto;
 }
 
-/* line 278, ../sass/capicon.scss */
+/* line 282, ../sass/capicon.scss */
 .vector-icons {
   background: #6c6374;
   border-radius: 4px;
@@ -347,7 +352,7 @@ img {
   text-shadow: none;
 }
 
-/* line 288, ../sass/capicon.scss */
+/* line 292, ../sass/capicon.scss */
 .scroll-to {
   font-size: 1.2em;
   position: absolute;
@@ -358,7 +363,7 @@ img {
   text-align: center;
 }
 
-/* line 298, ../sass/capicon.scss */
+/* line 302, ../sass/capicon.scss */
 .nav-down {
   width: 100px;
   height: 40px;
@@ -376,12 +381,12 @@ img {
 /* ===========================================================
                             WELCOME
    =========================================================== */
-/* line 316, ../sass/capicon.scss */
+/* line 320, ../sass/capicon.scss */
 #welcome {
   background: white url("../img/clouds.svg") right center no-repeat;
   background-size: 60%;
 }
-/* line 320, ../sass/capicon.scss */
+/* line 324, ../sass/capicon.scss */
 #welcome .right img {
   max-width: 400px;
 }
@@ -389,14 +394,14 @@ img {
 /* ===========================================================
                             STEPS
    =========================================================== */
-/* line 329, ../sass/capicon.scss */
+/* line 333, ../sass/capicon.scss */
 #steps {
   background: #f2f6f7 url("../img/back-steps.svg") left 8% no-repeat;
   background-size: 680px;
   margin-bottom: -30px;
   z-index: 11;
 }
-/* line 335, ../sass/capicon.scss */
+/* line 339, ../sass/capicon.scss */
 #steps q.quote {
   color: silver;
   display: block;
@@ -405,22 +410,22 @@ img {
   font-style: italic;
   padding: 0 0 2em;
 }
-/* line 344, ../sass/capicon.scss */
+/* line 348, ../sass/capicon.scss */
 #steps ul.step-list {
   width: 100%;
 }
-/* line 348, ../sass/capicon.scss */
+/* line 352, ../sass/capicon.scss */
 #steps ul.step-list li {
   width: 33.33333333%;
   float: left;
   margin: 0;
   padding: 0 4%;
 }
-/* line 354, ../sass/capicon.scss */
+/* line 358, ../sass/capicon.scss */
 #steps ul.step-list li div.image {
   position: relative;
 }
-/* line 357, ../sass/capicon.scss */
+/* line 361, ../sass/capicon.scss */
 #steps ul.step-list li div.image img {
   margin-bottom: 2em;
   position: relative;
@@ -428,11 +433,11 @@ img {
   left: 0;
   transition: opacity 10s easy;
 }
-/* line 366, ../sass/capicon.scss */
+/* line 370, ../sass/capicon.scss */
 #steps ul.step-list li div.image img.onhover {
   position: absolute;
 }
-/* line 370, ../sass/capicon.scss */
+/* line 374, ../sass/capicon.scss */
 #steps ul.step-list li div.image:hover img.onhover {
   opacity: 1;
 }
@@ -440,37 +445,37 @@ img {
 /* ===========================================================
                             FEATURES
    =========================================================== */
-/* line 381, ../sass/capicon.scss */
+/* line 385, ../sass/capicon.scss */
 #features {
   background: #e18d87 url("../img/compass.svg") right center no-repeat;
   bottom: 20px;
 }
-/* line 385, ../sass/capicon.scss */
+/* line 389, ../sass/capicon.scss */
 #features h2 {
   padding-bottom: 1em;
 }
-/* line 390, ../sass/capicon.scss */
+/* line 394, ../sass/capicon.scss */
 #features ul.feature-list li {
   float: left;
   margin: 0 0 4em;
   width: 50%;
 }
-/* line 395, ../sass/capicon.scss */
+/* line 399, ../sass/capicon.scss */
 #features ul.feature-list li .image {
   float: left;
   width: 25%;
 }
-/* line 400, ../sass/capicon.scss */
+/* line 404, ../sass/capicon.scss */
 #features ul.feature-list li .text {
   float: right;
   padding: 0.4em 10% 0 5%;
   width: 75%;
 }
-/* line 405, ../sass/capicon.scss */
+/* line 409, ../sass/capicon.scss */
 #features ul.feature-list li .text h3 {
   color: #f6e5d0;
 }
-/* line 409, ../sass/capicon.scss */
+/* line 413, ../sass/capicon.scss */
 #features ul.feature-list li .text p {
   margin: 0;
 }
@@ -478,17 +483,21 @@ img {
 /* ===========================================================
                         RESOURCE FOR DESIGNERS
    =========================================================== */
-/* line 421, ../sass/capicon.scss */
+/* line 425, ../sass/capicon.scss */
 #designers {
   background: transparent url("../img/designers.svg") left top no-repeat;
   background-size: 40% auto;
   margin-top: -30px;
 }
+/* line 430, ../sass/capicon.scss */
+#designers img#license {
+  width: 118px;
+}
 
 /* ===========================================================
                         	CUSTOMIZATION
    =========================================================== */
-/* line 431, ../sass/capicon.scss */
+/* line 439, ../sass/capicon.scss */
 #customization {
   background: #f2ece6;
   z-index: 11;
@@ -497,34 +506,34 @@ img {
 /* ===========================================================
                         	COLORS
    =========================================================== */
-/* line 442, ../sass/capicon.scss */
+/* line 450, ../sass/capicon.scss */
 #colors h3.select {
   color: #d3807b;
 }
-/* line 446, ../sass/capicon.scss */
+/* line 454, ../sass/capicon.scss */
 #colors #icon {
   margin-top: 2em;
   max-width: 400px;
 }
-/* line 451, ../sass/capicon.scss */
+/* line 459, ../sass/capicon.scss */
 #colors ul.color-list {
   margin-bottom: 3em;
   overflow: auto;
   padding: 0;
 }
-/* line 456, ../sass/capicon.scss */
+/* line 464, ../sass/capicon.scss */
 #colors ul.color-list li {
   border-radius: 50%;
   float: left;
   margin: 0 5px 0 0;
   padding: 5px;
 }
-/* line 462, ../sass/capicon.scss */
+/* line 470, ../sass/capicon.scss */
 #colors ul.color-list li.selected {
   background: transparent url("../img/color-selected.png") center center no-repeat;
   background-size: 40px 40px;
 }
-/* line 467, ../sass/capicon.scss */
+/* line 475, ../sass/capicon.scss */
 #colors ul.color-list li span {
   float: left;
   width: 30px;
@@ -533,43 +542,43 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
-/* line 475, ../sass/capicon.scss */
+/* line 483, ../sass/capicon.scss */
 #colors ul.color-list li span.color-0 {
   background: #f6e5d0;
 }
-/* line 479, ../sass/capicon.scss */
+/* line 487, ../sass/capicon.scss */
 #colors ul.color-list li span.color-1 {
   background: #e6c7b9;
 }
-/* line 483, ../sass/capicon.scss */
+/* line 491, ../sass/capicon.scss */
 #colors ul.color-list li span.color-2 {
   background: #d3807b;
 }
-/* line 487, ../sass/capicon.scss */
+/* line 495, ../sass/capicon.scss */
 #colors ul.color-list li span.color-3 {
   background: #c5e3c7;
 }
-/* line 491, ../sass/capicon.scss */
+/* line 499, ../sass/capicon.scss */
 #colors ul.color-list li span.color-4 {
   background: #bfe1dd;
 }
-/* line 495, ../sass/capicon.scss */
+/* line 503, ../sass/capicon.scss */
 #colors ul.color-list li span.color-5 {
   background: #8c4a62;
 }
-/* line 499, ../sass/capicon.scss */
+/* line 507, ../sass/capicon.scss */
 #colors ul.color-list li span.color-6 {
   background: #594255;
 }
-/* line 503, ../sass/capicon.scss */
+/* line 511, ../sass/capicon.scss */
 #colors ul.color-list li span.color-7 {
   background: #726873;
 }
-/* line 507, ../sass/capicon.scss */
+/* line 515, ../sass/capicon.scss */
 #colors ul.color-list li span.color-8 {
   background: #bfb2a3;
 }
-/* line 511, ../sass/capicon.scss */
+/* line 519, ../sass/capicon.scss */
 #colors ul.color-list li span.color-9 {
   background: silver;
 }
@@ -577,17 +586,17 @@ img {
 /* ===========================================================
                         		ABOUT ME
    =========================================================== */
-/* line 523, ../sass/capicon.scss */
+/* line 531, ../sass/capicon.scss */
 #autor {
   background: #bfe1dd url("../img/map.svg") right bottom no-repeat;
   min-height: 570px;
   z-index: 11;
 }
-/* line 529, ../sass/capicon.scss */
+/* line 537, ../sass/capicon.scss */
 #autor .right img {
   max-width: 300px;
 }
-/* line 534, ../sass/capicon.scss */
+/* line 542, ../sass/capicon.scss */
 #autor a {
   text-decoration: none;
   color: #77a5b2;
@@ -596,35 +605,35 @@ img {
 /* ===========================================================
                         DOWNLOAD AND DONATE
    =========================================================== */
-/* line 544, ../sass/capicon.scss */
+/* line 552, ../sass/capicon.scss */
 #download {
   background: #f2f6f7;
   bottom: 20px;
   margin-bottom: -50px;
   padding-bottom: 60px;
 }
-/* line 550, ../sass/capicon.scss */
+/* line 558, ../sass/capicon.scss */
 #download .button {
   margin-top: 2em;
   position: relative;
   float: left;
   width: 30%;
 }
-/* line 556, ../sass/capicon.scss */
+/* line 564, ../sass/capicon.scss */
 #download .button img {
   max-width: 360px;
 }
-/* line 561, ../sass/capicon.scss */
+/* line 569, ../sass/capicon.scss */
 #download div.button:first-of-type {
   margin-left: 15%;
   margin-right: 5%;
 }
-/* line 566, ../sass/capicon.scss */
+/* line 574, ../sass/capicon.scss */
 #download div.button + div.button {
   margin-left: 5%;
   margin-right: 15%;
 }
-/* line 571, ../sass/capicon.scss */
+/* line 579, ../sass/capicon.scss */
 #download a, #download input {
   background: #a4d191;
   border: 0;
@@ -645,7 +654,7 @@ img {
   width: 160px;
   -webkit-appearance: none;
 }
-/* line 591, ../sass/capicon.scss */
+/* line 599, ../sass/capicon.scss */
 #download a:hover, #download input:hover {
   background: #bddbad;
   box-shadow: 0 5px #a4d191;
@@ -654,21 +663,21 @@ img {
 /* ===========================================================
                         	DONATIONS LIST
    =========================================================== */
-/* line 604, ../sass/capicon.scss */
+/* line 612, ../sass/capicon.scss */
 #donations-list h2 {
   padding: 0.5em 0;
 }
-/* line 608, ../sass/capicon.scss */
+/* line 616, ../sass/capicon.scss */
 #donations-list p {
   margin: 0.6em 0;
   text-align: center;
 }
-/* line 613, ../sass/capicon.scss */
+/* line 621, ../sass/capicon.scss */
 #donations-list li {
   float: left;
   width: 33.333333%;
 }
-/* line 619, ../sass/capicon.scss */
+/* line 627, ../sass/capicon.scss */
 #donations-list p.thanks {
   color: silver;
   display: block;
@@ -682,49 +691,49 @@ img {
                         	SOCIAL
    =========================================================== */
 @-webkit-keyframes clouds {
-  /* line 634, ../sass/capicon.scss */
+  /* line 642, ../sass/capicon.scss */
   0% {
     -webkit-transform: translate(0, 0px);
   }
 
-  /* line 635, ../sass/capicon.scss */
+  /* line 643, ../sass/capicon.scss */
   100% {
     -webkit-transform: translate(1440px, 0);
   }
 }
 
 @-moz-keyframes clouds {
-  /* line 639, ../sass/capicon.scss */
+  /* line 647, ../sass/capicon.scss */
   0% {
     transform: translate(0, 0px);
   }
 
-  /* line 640, ../sass/capicon.scss */
+  /* line 648, ../sass/capicon.scss */
   100% {
     transform: translate(1440px, 0);
   }
 }
 
 @keyframes clouds {
-  /* line 643, ../sass/capicon.scss */
+  /* line 651, ../sass/capicon.scss */
   0% {
     transform: translate(0, 0px);
   }
 
-  /* line 644, ../sass/capicon.scss */
+  /* line 652, ../sass/capicon.scss */
   100% {
     transform: translate(1440px, 0);
   }
 }
 
-/* line 647, ../sass/capicon.scss */
+/* line 655, ../sass/capicon.scss */
 #social {
   background: #e18d87 url("../img/city.svg") left bottom repeat-x;
   margin-top: -20px;
   min-height: 560px;
   overflow: hidden;
 }
-/* line 653, ../sass/capicon.scss */
+/* line 661, ../sass/capicon.scss */
 #social .clouds {
   background: url("../img/clouds-city.svg");
   background-repeat: repeat-x;
@@ -738,85 +747,85 @@ img {
   z-index: 0;
   animation: clouds 300s linear infinite;
 }
-/* line 665, ../sass/capicon.scss */
+/* line 673, ../sass/capicon.scss */
 #social .house {
   height: 100%;
   position: absolute;
   top: 0;
 }
-/* line 671, ../sass/capicon.scss */
+/* line 679, ../sass/capicon.scss */
 #social .left-first-house {
   background: url("../img/left-first-house.svg") left top no-repeat;
   right: 90%;
   width: 192px;
   z-index: 3;
 }
-/* line 678, ../sass/capicon.scss */
+/* line 686, ../sass/capicon.scss */
 #social .left-second-house {
   background: url("../img/left-second-house.svg") left top no-repeat;
   right: 80%;
   width: 274px;
   z-index: 2;
 }
-/* line 685, ../sass/capicon.scss */
+/* line 693, ../sass/capicon.scss */
 #social .left-third-house {
   background: url("../img/left-third-house.svg") left top no-repeat;
   right: 70%;
   width: 384px;
   z-index: 1;
 }
-/* line 692, ../sass/capicon.scss */
+/* line 700, ../sass/capicon.scss */
 #social .right-first-house {
   background: url("../img/right-first-house.svg") right top no-repeat;
   left: 86%;
   width: 270px;
   z-index: 6;
 }
-/* line 699, ../sass/capicon.scss */
+/* line 707, ../sass/capicon.scss */
 #social .right-second-house {
   background: url("../img/right-second-house.svg") right top no-repeat;
   left: 78%;
   width: 164px;
   z-index: 5;
 }
-/* line 706, ../sass/capicon.scss */
+/* line 714, ../sass/capicon.scss */
 #social .right-third-house {
   background: url("../img/right-third-house.svg") right top no-repeat;
   left: 70%;
   width: 384px;
   z-index: 4;
 }
-/* line 713, ../sass/capicon.scss */
+/* line 721, ../sass/capicon.scss */
 #social .block-inner {
   padding-top: 40px;
   position: relative;
   z-index: 7;
 }
-/* line 719, ../sass/capicon.scss */
+/* line 727, ../sass/capicon.scss */
 #social h2 {
   padding-bottom: 0.5em;
 }
-/* line 723, ../sass/capicon.scss */
+/* line 731, ../sass/capicon.scss */
 #social .social-list {
   margin: 0 auto;
   overflow: auto;
   padding: 0;
   width: 460px;
 }
-/* line 729, ../sass/capicon.scss */
+/* line 737, ../sass/capicon.scss */
 #social .social-list li {
   float: left;
   width: 25%;
 }
-/* line 733, ../sass/capicon.scss */
+/* line 741, ../sass/capicon.scss */
 #social .social-list li a {
   outline: none;
 }
-/* line 738, ../sass/capicon.scss */
+/* line 746, ../sass/capicon.scss */
 #social .social-list img {
   max-width: 70px;
 }
-/* line 741, ../sass/capicon.scss */
+/* line 749, ../sass/capicon.scss */
 #social .social-list img:hover {
   max-width: 80px;
   transition: all 0.4s ease;
@@ -825,223 +834,223 @@ img {
 /* ===========================================================
                         	MOBILE
    =========================================================== */
-/* line 754, ../sass/capicon.scss */
+/* line 762, ../sass/capicon.scss */
 .mobile .block {
   margin-top: 1.5em;
   opacity: 1;
 }
 
 @media only screen and (max-width: 960px) {
-  /* line 762, ../sass/capicon.scss */
+  /* line 770, ../sass/capicon.scss */
   h2 {
     font-size: 2.8em;
   }
 
-  /* line 766, ../sass/capicon.scss */
+  /* line 774, ../sass/capicon.scss */
   p {
     font-size: 1.2em;
   }
 
-  /* line 770, ../sass/capicon.scss */
+  /* line 778, ../sass/capicon.scss */
   .block {
     height: auto;
     margin-top: 150px;
     padding: 0 .5em;
   }
 
-  /* line 776, ../sass/capicon.scss */
+  /* line 784, ../sass/capicon.scss */
   .block-inner {
     width: 100%;
   }
 
-  /* line 780, ../sass/capicon.scss */
+  /* line 788, ../sass/capicon.scss */
   .active .block {
     margin-top: 50px;
   }
 
-  /* line 784, ../sass/capicon.scss */
+  /* line 792, ../sass/capicon.scss */
   .active .left, .left {
     margin-left: 0;
   }
 
-  /* line 788, ../sass/capicon.scss */
+  /* line 796, ../sass/capicon.scss */
   .active .right, .right {
     margin-right: 0;
     margin-bottom: 100px;
   }
 
-  /* line 793, ../sass/capicon.scss */
+  /* line 801, ../sass/capicon.scss */
   .left {
     padding-right: 0;
   }
 
-  /* line 797, ../sass/capicon.scss */
+  /* line 805, ../sass/capicon.scss */
   .right {
     margin-bottom: 50px;
   }
 
-  /* line 801, ../sass/capicon.scss */
+  /* line 809, ../sass/capicon.scss */
   .left, .right {
     float: none;
     width: 100%;
   }
 
-  /* line 806, ../sass/capicon.scss */
+  /* line 814, ../sass/capicon.scss */
   .top-container {
     background-size: 120%;
   }
 
-  /* line 810, ../sass/capicon.scss */
+  /* line 818, ../sass/capicon.scss */
   .logo-image {
     max-width: 440px;
   }
 
-  /* line 814, ../sass/capicon.scss */
+  /* line 822, ../sass/capicon.scss */
   .slogan {
     width: 100%;
   }
 
-  /* line 818, ../sass/capicon.scss */
+  /* line 826, ../sass/capicon.scss */
   #welcome {
     background: white url("../img/clouds-mobile.svg") no-repeat;
     background-position: center 80%;
     background-size: 100%;
   }
 
-  /* line 824, ../sass/capicon.scss */
+  /* line 832, ../sass/capicon.scss */
   #steps ul.step-list {
     margin: 0 auto;
     width: 60%;
   }
-  /* line 828, ../sass/capicon.scss */
+  /* line 836, ../sass/capicon.scss */
   #steps ul.step-list li {
     padding: 0;
     width: 100%;
   }
 
-  /* line 834, ../sass/capicon.scss */
+  /* line 842, ../sass/capicon.scss */
   #features .block {
     margin-top: 100px;
   }
 
-  /* line 838, ../sass/capicon.scss */
+  /* line 846, ../sass/capicon.scss */
   #features ul.feature-list li {
     width: 100%;
   }
-  /* line 841, ../sass/capicon.scss */
+  /* line 849, ../sass/capicon.scss */
   #features ul.feature-list li h3 {
     font-size: 2.4em;
     text-align: center;
   }
-  /* line 846, ../sass/capicon.scss */
+  /* line 854, ../sass/capicon.scss */
   #features ul.feature-list li .image img {
     max-width: 150px;
     margin-bottom: 1em;
   }
-  /* line 851, ../sass/capicon.scss */
+  /* line 859, ../sass/capicon.scss */
   #features ul.feature-list li .image, #features ul.feature-list li .text {
     float: none;
     width: 100%;
   }
-  /* line 856, ../sass/capicon.scss */
+  /* line 864, ../sass/capicon.scss */
   #features ul.feature-list li .text {
     padding: 0;
   }
 
-  /* line 861, ../sass/capicon.scss */
+  /* line 869, ../sass/capicon.scss */
   #designers {
     background-size: auto;
     padding-top: 330px;
   }
-  /* line 866, ../sass/capicon.scss */
+  /* line 874, ../sass/capicon.scss */
   #designers .right {
     margin-bottom: 50px;
   }
 
-  /* line 873, ../sass/capicon.scss */
+  /* line 881, ../sass/capicon.scss */
   #colors h3.select {
     font-size: 2em;
   }
-  /* line 877, ../sass/capicon.scss */
+  /* line 885, ../sass/capicon.scss */
   #colors #icon {
     margin-top: 0;
     width: 90%;
   }
-  /* line 882, ../sass/capicon.scss */
+  /* line 890, ../sass/capicon.scss */
   #colors ul.color-list {
     margin-bottom: 0em;
   }
-  /* line 885, ../sass/capicon.scss */
+  /* line 893, ../sass/capicon.scss */
   #colors ul.color-list li {
     margin: 0 5px 1em 0;
   }
-  /* line 890, ../sass/capicon.scss */
+  /* line 898, ../sass/capicon.scss */
   #colors .right {
     margin-top: 0;
   }
 
-  /* line 895, ../sass/capicon.scss */
+  /* line 903, ../sass/capicon.scss */
   #autor {
     padding-bottom: 12em;
   }
 
-  /* line 900, ../sass/capicon.scss */
+  /* line 908, ../sass/capicon.scss */
   #download .button {
     float: none;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
   }
-  /* line 906, ../sass/capicon.scss */
+  /* line 914, ../sass/capicon.scss */
   #download .button img {
     max-width: 300px;
   }
-  /* line 911, ../sass/capicon.scss */
+  /* line 919, ../sass/capicon.scss */
   #download div.button:first-of-type {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 916, ../sass/capicon.scss */
+  /* line 924, ../sass/capicon.scss */
   #download div.button + div.button {
     margin-left: 0;
   }
 
-  /* line 922, ../sass/capicon.scss */
+  /* line 930, ../sass/capicon.scss */
   #donations-list li {
     float: none;
     width: 100%;
   }
 
-  /* line 928, ../sass/capicon.scss */
+  /* line 936, ../sass/capicon.scss */
   #social {
     min-height: 460px;
   }
-  /* line 931, ../sass/capicon.scss */
+  /* line 939, ../sass/capicon.scss */
   #social .house {
     display: none;
   }
-  /* line 935, ../sass/capicon.scss */
+  /* line 943, ../sass/capicon.scss */
   #social .social-list {
     width: 100%;
   }
-  /* line 938, ../sass/capicon.scss */
+  /* line 946, ../sass/capicon.scss */
   #social .social-list li {
     padding: 0 2%;
   }
 }
 @media only screen and (max-device-width: 960px) {
-  /* line 946, ../sass/capicon.scss */
+  /* line 954, ../sass/capicon.scss */
   .slogan {
     font-size: 1.5em;
   }
 }
 @media only screen and (orientation: landscape) and (max-device-width: 1280px) and (min-resolution: 192dpi) {
-  /* line 953, ../sass/capicon.scss */
+  /* line 961, ../sass/capicon.scss */
   .logo-image {
     max-width: 150px;
   }
 
-  /* line 957, ../sass/capicon.scss */
+  /* line 965, ../sass/capicon.scss */
   .logo {
     height: 65%;
   }
@@ -1050,62 +1059,62 @@ img {
                         DESKTOPS AND LAPTOPS
    =========================================================== */
 @media only screen and (min-width: 960px) and (max-width: 1280px) {
-  /* line 968, ../sass/capicon.scss */
+  /* line 976, ../sass/capicon.scss */
   .active .block {
     margin-top: 50px;
   }
 
-  /* line 972, ../sass/capicon.scss */
+  /* line 980, ../sass/capicon.scss */
   .block-inner {
     width: 90%;
   }
 
-  /* line 977, ../sass/capicon.scss */
+  /* line 985, ../sass/capicon.scss */
   #steps .section-desc {
     margin: 1em auto;
     width: 80%;
   }
 
-  /* line 983, ../sass/capicon.scss */
+  /* line 991, ../sass/capicon.scss */
   #features h2 {
     padding: 0.5em 0;
   }
 
-  /* line 987, ../sass/capicon.scss */
+  /* line 995, ../sass/capicon.scss */
   #designers {
     background: transparent url("../img/designers_1280.svg") left top no-repeat;
   }
 
-  /* line 991, ../sass/capicon.scss */
+  /* line 999, ../sass/capicon.scss */
   #customization img {
     content: url("../img/customization_1024.svg");
     max-height: 460px;
   }
 
-  /* line 996, ../sass/capicon.scss */
+  /* line 1004, ../sass/capicon.scss */
   #colors h3.select {
     font-size: 260%;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1400px) {
-  /* line 1003, ../sass/capicon.scss */
+  /* line 1011, ../sass/capicon.scss */
   .logo-image {
     max-width: 440px;
   }
 }
 @media only screen and (min-width: 960px) and (max-width: 1400px) {
-  /* line 1010, ../sass/capicon.scss */
+  /* line 1018, ../sass/capicon.scss */
   .slogan {
     width: 70%;
   }
 
-  /* line 1014, ../sass/capicon.scss */
+  /* line 1022, ../sass/capicon.scss */
   .left-third-house, .right-third-house {
     display: none;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
-  /* line 1020, ../sass/capicon.scss */
+  /* line 1028, ../sass/capicon.scss */
   .slogan {
     width: 50%;
   }
@@ -1114,13 +1123,13 @@ img {
                         	IPAD
    =========================================================== */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-max-device-pixel-ratio: 1) and (orientation: landscape) {
-  /* line 1030, ../sass/capicon.scss */
+  /* line 1038, ../sass/capicon.scss */
   .top-container {
     height: 96.5%;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-max-device-pixel-ratio: 1) and (orientation: portrait) {
-  /* line 1036, ../sass/capicon.scss */
+  /* line 1044, ../sass/capicon.scss */
   .top-container {
     height: 99.5%;
   }
@@ -1129,43 +1138,43 @@ img {
                         	IPHONE 4 
    =========================================================== */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 1046, ../sass/capicon.scss */
+  /* line 1054, ../sass/capicon.scss */
   .logo-image {
     max-width: 170px;
   }
 
-  /* line 1050, ../sass/capicon.scss */
+  /* line 1058, ../sass/capicon.scss */
   .slogan {
     width: 80%;
   }
 
-  /* line 1054, ../sass/capicon.scss */
+  /* line 1062, ../sass/capicon.scss */
   .scroll-to {
     display: none;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* line 1061, ../sass/capicon.scss */
+  /* line 1069, ../sass/capicon.scss */
   .logo-image {
     max-width: 200px;
   }
 
-  /* line 1065, ../sass/capicon.scss */
+  /* line 1073, ../sass/capicon.scss */
   .slogan {
     font-size: 1.5em;
   }
 
-  /* line 1069, ../sass/capicon.scss */
+  /* line 1077, ../sass/capicon.scss */
   .top-bar span, .top-bar a, .scroll-to {
     font-size: 1em;
   }
 
-  /* line 1073, ../sass/capicon.scss */
+  /* line 1081, ../sass/capicon.scss */
   .top-bar .top-bar-inner {
     width: 90%;
   }
 
-  /* line 1077, ../sass/capicon.scss */
+  /* line 1085, ../sass/capicon.scss */
   .scroll-to {
     bottom: 20px;
   }
@@ -1174,84 +1183,84 @@ img {
                         	IPAD RETINA
    =========================================================== */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 1087, ../sass/capicon.scss */
+  /* line 1095, ../sass/capicon.scss */
   .top-container {
     height: 96%;
   }
 
-  /* line 1091, ../sass/capicon.scss */
+  /* line 1099, ../sass/capicon.scss */
   .logo {
     height: 86%;
   }
 
-  /* line 1095, ../sass/capicon.scss */
+  /* line 1103, ../sass/capicon.scss */
   .left, .right {
     width: 48%;
   }
 
-  /* line 1099, ../sass/capicon.scss */
+  /* line 1107, ../sass/capicon.scss */
   .slogan {
     font-size: 3em;
     width: 74%;
   }
 
-  /* line 1104, ../sass/capicon.scss */
+  /* line 1112, ../sass/capicon.scss */
   #colors ul.color-list li {
     margin: 0;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  /* line 1111, ../sass/capicon.scss */
+  /* line 1119, ../sass/capicon.scss */
   .row {
     min-height: 400px;
   }
 
-  /* line 1115, ../sass/capicon.scss */
+  /* line 1123, ../sass/capicon.scss */
   .left, .right {
     width: 48%;
   }
 
-  /* line 1119, ../sass/capicon.scss */
+  /* line 1127, ../sass/capicon.scss */
   .left {
     margin-left: 2%;
     padding-right: 4em;
     float: left;
   }
 
-  /* line 1125, ../sass/capicon.scss */
+  /* line 1133, ../sass/capicon.scss */
   .right {
     margin-right: 2%;
     float: right;
   }
 
-  /* line 1130, ../sass/capicon.scss */
+  /* line 1138, ../sass/capicon.scss */
   .block-inner {
     text-align: center;
     width: 90%;
   }
 
-  /* line 1135, ../sass/capicon.scss */
+  /* line 1143, ../sass/capicon.scss */
   .slogan {
     font-size: 3em;
     width: 90%;
   }
 
-  /* line 1140, ../sass/capicon.scss */
+  /* line 1148, ../sass/capicon.scss */
   #welcome {
     background: white url("../img/clouds-mobile.svg") right center no-repeat;
     background-size: 480px;
   }
 
-  /* line 1145, ../sass/capicon.scss */
+  /* line 1153, ../sass/capicon.scss */
   #steps {
     background-size: 460px;
     min-height: 300px;
   }
-  /* line 1150, ../sass/capicon.scss */
+  /* line 1158, ../sass/capicon.scss */
   #steps ul.step-list {
     width: 100%;
   }
-  /* line 1154, ../sass/capicon.scss */
+  /* line 1162, ../sass/capicon.scss */
   #steps ul.step-list li {
     width: 33.33333333%;
     float: left;
@@ -1259,71 +1268,71 @@ img {
     padding: 0 4%;
   }
 
-  /* line 1165, ../sass/capicon.scss */
+  /* line 1173, ../sass/capicon.scss */
   #features ul.feature-list li {
     float: left;
     margin: 0 0 4em;
     width: 50%;
   }
-  /* line 1170, ../sass/capicon.scss */
+  /* line 1178, ../sass/capicon.scss */
   #features ul.feature-list li .image {
     float: left;
     width: 25%;
   }
-  /* line 1175, ../sass/capicon.scss */
+  /* line 1183, ../sass/capicon.scss */
   #features ul.feature-list li .text {
     float: right;
     padding: 0.4em 10% 0 5%;
     width: 75%;
   }
-  /* line 1180, ../sass/capicon.scss */
+  /* line 1188, ../sass/capicon.scss */
   #features ul.feature-list li .text h3 {
     color: #f6e5d0;
   }
-  /* line 1184, ../sass/capicon.scss */
+  /* line 1192, ../sass/capicon.scss */
   #features ul.feature-list li .text p {
     margin: 0;
   }
 
-  /* line 1192, ../sass/capicon.scss */
+  /* line 1200, ../sass/capicon.scss */
   #designers {
     background-size: 400px;
     padding-top: 0;
   }
 
-  /* line 1197, ../sass/capicon.scss */
+  /* line 1205, ../sass/capicon.scss */
   #customization img {
     content: url("../img/customization_1024.svg");
     max-height: 460px;
   }
 
-  /* line 1202, ../sass/capicon.scss */
+  /* line 1210, ../sass/capicon.scss */
   #autor {
     background-size: 540px;
   }
 
-  /* line 1207, ../sass/capicon.scss */
+  /* line 1215, ../sass/capicon.scss */
   #download .button {
     margin-top: 2em;
     position: relative;
     float: left;
     width: 30%;
   }
-  /* line 1213, ../sass/capicon.scss */
+  /* line 1221, ../sass/capicon.scss */
   #download .button img {
     max-width: 360px;
   }
-  /* line 1218, ../sass/capicon.scss */
+  /* line 1226, ../sass/capicon.scss */
   #download div.button:first-of-type {
     margin-left: 15%;
     margin-right: 5%;
   }
-  /* line 1223, ../sass/capicon.scss */
+  /* line 1231, ../sass/capicon.scss */
   #download div.button + div.button {
     margin-left: 5%;
     margin-right: 15%;
   }
-  /* line 1228, ../sass/capicon.scss */
+  /* line 1236, ../sass/capicon.scss */
   #download a, #download input {
     height: 40px;
     margin-left: -70px;
@@ -1331,25 +1340,25 @@ img {
     width: 140px;
   }
 
-  /* line 1237, ../sass/capicon.scss */
+  /* line 1245, ../sass/capicon.scss */
   #donations-list li {
     float: left;
     width: 33.333333%;
   }
 
-  /* line 1243, ../sass/capicon.scss */
+  /* line 1251, ../sass/capicon.scss */
   #social {
     min-height: 560px;
   }
-  /* line 1246, ../sass/capicon.scss */
+  /* line 1254, ../sass/capicon.scss */
   #social .house {
     display: block;
   }
-  /* line 1250, ../sass/capicon.scss */
+  /* line 1258, ../sass/capicon.scss */
   #social .left-third-house, #social .right-third-house {
     display: none;
   }
-  /* line 1254, ../sass/capicon.scss */
+  /* line 1262, ../sass/capicon.scss */
   #social .social-list {
     width: 460px;
   }

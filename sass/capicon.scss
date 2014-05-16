@@ -54,6 +54,10 @@ p{
 	text-align: left;
 }
 
+a{
+	color: $turquoise;
+}
+
 b{
 	letter-spacing: -0.02em;
 }
@@ -422,6 +426,10 @@ img{
 	background: transparent url('../img/designers.svg') left top no-repeat;
 	background-size: 40% auto;
 	margin-top: -30px;
+
+	img#license{
+		width: 118px;
+	}
 }
 
 /* ===========================================================
