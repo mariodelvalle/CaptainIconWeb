@@ -32,6 +32,10 @@
     Robert Gampe
     Claudia Siebauer
     Patrick Holzmann
+    Alysha Menzel
+    Francisco Javier Alonso Gomez
+    Lourdes Barroso
+    Tristan Warner-Smith 
 
 # TEAM
 
