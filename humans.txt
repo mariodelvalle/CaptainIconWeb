@@ -36,6 +36,9 @@
     Francisco Javier Alonso Gomez
     Lourdes Barroso
     Tristan Warner-Smith 
+    Joop Vos
+    Laura Talegón
+    Clarice Uba
 
 # TEAM
 
