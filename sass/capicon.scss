@@ -18,7 +18,16 @@ body{
 	font-family: 'proxima_nova_regular', sans-serif, Arial;
 	font-size: 100%;
 	margin: 0;
-	user-select: none;
+
+	::selection {
+		background: #ECD078;
+		color: $white;
+	}
+
+	::-moz-selection {
+		background: #ECD078;
+		color: $white;
+	}
 }
 
 h1,h2,h3{
