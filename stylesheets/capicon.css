@@ -127,7 +127,7 @@ img {
 /* line 92, ../sass/capicon.scss */
 .row {
   min-height: 540px;
-  padding: 10px;
+  padding: 10px 0;
   position: relative;
 }
 
