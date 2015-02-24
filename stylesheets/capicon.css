@@ -860,6 +860,10 @@ img {
     font-size: 1.2em;
   }
 
+  .row{
+    padding: 10px;
+  }
+
   /* line 787, ../sass/capicon.scss */
   .block {
     height: auto;
