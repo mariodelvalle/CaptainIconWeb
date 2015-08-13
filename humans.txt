@@ -5,12 +5,40 @@
 	
 	Thank you all for appreciating so much the hard work done on this product to the point of paying for it. I Hope you enjoy it! 
 
-	Sebastian Hermida (@sbastn)
-	Manuel Jesús Recena Soto (@recena)
-	Atle Lillehovde (@atlelill)
-	Gabor Meszoly (@gabormeszoly)
-	Nils Schirmer
-	K Media Ltd
+	Sebastian Hermida
+    Gabor Meszoly
+    Mark Gavagan
+    Ho Byyung Kim
+    Andrzej Piłatowicz
+    Sybille Paumier
+    H-Joachim Janduda
+    Sören Hänsler
+    Marco Bohnenkamp
+    Manuel Jesús Recena Soto
+    Nils Schirmer
+    Daniel Jacoby
+    Stegaru Victor
+    Pascal Casti
+    Laura Portillo Artacho
+    Brigitta Settels
+    Gary Vey
+    Cornelia Lange
+    Atle Lillehovde
+    K Media Ltd
+    Mario Gutierrez
+    Philipp Munzert
+    Geoffrey Parker
+    Premper Agencia Digital
+    Robert Gampe
+    Claudia Siebauer
+    Patrick Holzmann
+    Alysha Menzel
+    Francisco Javier Alonso Gomez
+    Lourdes Barroso
+    Tristan Warner-Smith 
+    Joop Vos
+    Laura Talegón
+    Clarice Uba
 
 # TEAM
 
@@ -25,6 +53,8 @@
 	My girlfriend Sandra for supporting me in all the process and always trust my.
 
 	To Mario de Frutos Dieguez (@ethervoid), Javier Gamarra Olmedo (@nhpatt) and Jorge Maroto García (@patoroco) support me in this project without asking anything in return and to encourage me at all times.
+
+	To Marc Pierre Boucherrie for support me in this project with French language.
 
 	My users that share this project without stopping and they are the piece important thing to design, User Interface Design, Forever :)
 
