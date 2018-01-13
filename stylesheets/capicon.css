@@ -473,7 +473,12 @@ img {
 #donations-list span {
   margin: 0.6em 0;
   text-align: center;
-  display: block; }
+  display: block; 
+  color: #808080;
+  font-size: 1.5em;
+  font-family: 'proxima_nova_light', sans-serif, Arial;
+  font-weight: 500;
+  text-align: left;}
 #donations-list li {
   float: left;
   width: 33.333333%; }
@@ -483,7 +488,8 @@ img {
   font-family: 'proxima_nova_light';
   font-size: 120%;
   font-style: italic;
-  padding: 2em 0; }
+  padding: 2em 0;
+  text-align: center; }
 
 /* ===========================================================
                         	SOCIAL
