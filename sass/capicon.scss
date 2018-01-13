@@ -55,7 +55,7 @@ h1, h2, h3{
 	font-family: 'populaire', sans-serif, Arial;
 }
 
-p, span{
+p {
 	color: $gray;
 	font-size: 1.5em;
 	font-family: 'proxima_nova_light', sans-serif, Arial;
@@ -625,6 +625,7 @@ img{
 	span{
 		margin: 0.6em 0;
 		text-align: center;
+		display: block;
 	}
 
 	li{

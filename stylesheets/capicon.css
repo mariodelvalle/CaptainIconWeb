@@ -57,7 +57,7 @@ h1, h2, h3 {
   color: #282828;
   font-family: 'populaire', sans-serif, Arial; }
 
-p, span {
+p {
   color: #808080;
   font-size: 1.5em;
   font-family: 'proxima_nova_light', sans-serif, Arial;
@@ -472,7 +472,8 @@ img {
   padding: 0.5em 0; }
 #donations-list span {
   margin: 0.6em 0;
-  text-align: center; }
+  text-align: center;
+  display: block; }
 #donations-list li {
   float: left;
   width: 33.333333%; }
