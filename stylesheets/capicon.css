@@ -57,7 +57,7 @@ h1, h2, h3 {
   color: #282828;
   font-family: 'populaire', sans-serif, Arial; }
 
-p {
+p, span {
   color: #808080;
   font-size: 1.5em;
   font-family: 'proxima_nova_light', sans-serif, Arial;
