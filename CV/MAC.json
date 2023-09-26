@@ -18,7 +18,13 @@
         "notes": "Autocompleted using Google Maps API (id: ChIJi7xhMnjjQgwR7KNoB5Qs7KY)",
         "country": "España"
       }
-    }
+    },
+    "relevantLinks": [
+      {
+        "type": "other",
+        "URL": "http://captainicon.com/"
+      }
+    ]
   },
   "experience": {
     "jobs": [
