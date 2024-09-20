@@ -505,6 +505,10 @@
         {
           "name": "Sketch",
           "type": "technology"
+        },
+        {
+          "name": "Slack",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
