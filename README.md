@@ -2,7 +2,7 @@
 
 # Mario del Valle Guijarro's CV
 
-This repository contains **my professional data**, stored as a [MAC](/CV/MAC.json) (or Manfred Awesomic CV), an open-source, interchangeable, machine-readable format.
+This repository contains **my professional data**, stored as a [MAC](/CV/MAC.json) (or Manfred Awesomic CV), an open-source, interchangeable, machine-readable format. It's also synchronized with [my profile in Manfred](https://getmanfred.com/profile/68739c05-fdee-4a9f-a852-94b2c4bf5698).
 <br/>
 <br/>
 
