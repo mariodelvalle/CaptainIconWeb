@@ -295,13 +295,37 @@
       },
       {
         "skill": {
+          "name": "Kanbanize",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Linear",
           "type": "technology"
         }
       },
       {
         "skill": {
+          "name": "Metabase",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Miro",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Notion",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Productboard",
           "type": "technology"
         }
       },
@@ -314,6 +338,12 @@
       {
         "skill": {
           "name": "Slack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio Code",
           "type": "technology"
         }
       },
