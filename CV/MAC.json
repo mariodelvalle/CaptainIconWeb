@@ -259,6 +259,48 @@
     "publicArtifacts": [
       {
         "details": {
+          "name": "Wecodefest",
+          "description": "Volunteering as a designer.  \nDeveloped website for tech event.\nDesigned logo, corporate image, including different printing elements like id cards, brochures, posters, socks, t-shirt, stands, water bottles, stickers, and so on.\nCreated illustrations for websites and print elements.",
+          "URL": "https://www.behance.net/gallery/76826197/Wecode",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/6c65089a-d7dd-498f-9d6d-fc52fb5c0934_wecodefest.jpg",
+            "alt": "wecodefest.jpg"
+          }
+        },
+        "type": "launch",
+        "publishingDate": "2018-03-01",
+        "tags": [
+          "Tech events"
+        ],
+        "relatedCompetences": [
+          {
+            "name": "Adobe Illustrator",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "Figma",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "Sketch",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
           "name": "Lechazoconf",
           "description": "Volunteering as a designer.  \nDeveloped website for tech event.\nDesigned logo, corporate image, including different printing elements like id cards, brochures, posters, socks, t-shirt, stands, water bottles, stickers, and so on.\nCreated illustrations for websites and print elements.",
           "URL": "https://lechazoconf.com/",
