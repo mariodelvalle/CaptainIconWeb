@@ -517,6 +517,10 @@
         {
           "name": "Visual Studio Code",
           "type": "technology"
+        },
+        {
+          "name": "Zeplin",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
