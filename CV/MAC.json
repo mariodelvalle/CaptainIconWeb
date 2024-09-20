@@ -449,6 +449,14 @@
         {
           "name": "CSS",
           "type": "technology"
+        },
+        {
+          "name": "Figma",
+          "type": "technology"
+        },
+        {
+          "name": "Google Analytics",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
