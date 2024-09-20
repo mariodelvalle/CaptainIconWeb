@@ -509,6 +509,10 @@
         {
           "name": "Slack",
           "type": "technology"
+        },
+        {
+          "name": "Tailwind",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
