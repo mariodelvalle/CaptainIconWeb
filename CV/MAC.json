@@ -8,21 +8,23 @@
     "profile": {
       "name": "Mario",
       "surnames": "del Valle Guijarro",
-      "title": "Product Designer en Ukio",
-      "description": "Hola, me llamo Mario del Valle y soy un diseñador de producto digital. Actualmente en Ukio y anteriormente participando en equipos de diseño en Nextail y en Carto. Diseñando con pasión y en constante evolución desde 2004, me gusta seguir aprendiendo sobre investigación, diseño visual, arquitectura de información, experiencia de usuario, branding y desarrollo web.\n\nUna de mis mayores fortalezas es mi sentido de responsabilidad, administración del tiempo sobre las tareas que deben realizarse. Enfocado en la calidad prestando atención a los detalles, deseando mejorar y aprender día a día.\n\nCapaz de abordar un problema teniendo en cuenta las necesidades del usuario, los objetivos de negocio y las limitaciones de tiempo y equipo. Visión de árbol y bosque, capacidad de análisis, visión holística, capacidad de priorización, pensamiento sistémico.",
+      "title": "Product Designer @ Ukio | UX Design | SaaS",
+      "description": "I am an enthusiastic designer based in Valladolid, Spain. I have been a team player inside product design teams in the last 14 years, eager to learn and help startups grow in consulting, GIS mapping, retail and real estate sectors. Joining from the early stages of small and big product companies, improving customer experience through good design. I am passionate about product, technology, visual design, branding, information architecture, and user experience.",
       "avatar": {
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/09/26/0885727e-1213-4734-85a8-93c12f1becc3_profile_image.jpg",
-        "alt": "profile_image.jpg"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/a223f3c2-ce80-4da9-9e7e-6ca10f1c90d6_linkedin-photo-44249.linkedin-photo-44249",
+        "alt": "24/09/20/a223f3c2-ce80-4da9-9e7e-6ca10f1c90d6_linkedin-photo-44249.linkedin-photo-44249"
       },
       "location": {
-        "notes": "Autocompleted using Google Maps API (id: ChIJi7xhMnjjQgwR7KNoB5Qs7KY)",
-        "country": "España"
+        "notes": "Autocompleted using Google Maps API (id: ChIJk27GCIxyRw0R72uiHNSS_7M)",
+        "country": "España",
+        "region": "Castilla y León",
+        "municipality": "Valladolid"
       }
     },
     "relevantLinks": [
       {
         "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/mariodelvalleguijarro"
+        "URL": "https://linkedin.com/in/mariodelvalleguijarro"
       },
       {
         "type": "github",
@@ -35,145 +37,6 @@
       {
         "type": "other",
         "URL": "http://captainicon.com/"
-      }
-    ]
-  },
-  "experience": {
-    "jobs": [
-      {
-        "organization": {
-          "name": "Ukio"
-        },
-        "roles": [
-          {
-            "name": "Product Designer",
-            "startDate": "2022-02-01",
-            "challenges": [
-              {
-                "description": "Diseño de Producto Digital\n\nMi tarea principal es el diseño de producto, participando de principio a fin en todo el proceso de diseño, ejecutando todas las fases del proceso, desde la investigación y discovery, entrevistas con usuarios para entender sus necesidades, conceptualización, creación de prototipos, validación de soluciones, test de usabilidad con usuarios, diseños finales para llevar a producción, entrega de recursos a los compañeros de desarrollo. Trabajando en equipos multidisciplinares junto a otras personas de diferentes perfiles.\n\nCreando conceptos, prototipos y diseños visuales de las interfaces que componen el producto, incorporando buenas prácticas y aplicando patrones UX y UI, con un diseño centrado en el usuario y con experimentación continua, tomando decisiones basadas en datos cualitativos y cuantitativos, contribuyendo a la visión y estrategia de Nextail y a su vez desarrollando y documentando todos los elementos que componen nuestro sistema de diseño de producto.\n\nDiseño Web\n\nDiseño e implementación de las páginas de lanzamiento del sitio web y páginas relacionadas con cada funcionalidad del producto, mediante HTML, CSS y JS a través de un desarrollo adaptado a diferentes entornos. Desarrollando y documentando todos los elementos que componen el sitio web."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Nextail"
-        },
-        "roles": [
-          {
-            "name": "Product Designer",
-            "startDate": "2015-11-01",
-            "finishDate": "2021-05-01",
-            "challenges": [
-              {
-                "description": "Diseño de Producto Digital\n\nMi tarea principal es el diseño de producto, participando de principio a fin en todo el proceso de diseño, ejecutando todas las fases del proceso, desde la investigación y discovery, entrevistas con usuarios para entender sus necesidades, conceptualización, creación de prototipos, validación de soluciones, test de usabilidad con usuarios, diseños finales para llevar a producción, entrega de recursos a los compañeros de desarrollo. Trabajando en equipos multidisciplinares junto a otras personas de diferentes perfiles.\n\nCreando conceptos, prototipos y diseños visuales de las interfaces que componen el producto, incorporando buenas prácticas y aplicando patrones UX y UI, con un diseño centrado en el usuario y con experimentación continua, tomando decisiones basadas en datos cualitativos y cuantitativos, contribuyendo a la visión y estrategia de Nextail y a su vez desarrollando y documentando todos los elementos que componen nuestro sistema de diseño de producto.\n\nDiseño y Desarrollo Web\n\nDiseño e implementación de las páginas de lanzamiento del sitio web y páginas relacionadas con cada funcionalidad del producto, mediante HTML, CSS y JS a través de un desarrollo adaptado a diferentes entornos. Desarrollando y documentando todos los elementos que componen el sitio web.\n\nBranding e Identidad Corporativa\n\nDefinición de la linea visual y desarrollo de la marca para diferentes componentes de la imagen corporativa de Nextail que estén alineados con la línea visual del producto y que incluye componentes gráficos de marketing como logotipo, brochures, tarjetas de visita, cartelería, roll-ups, presentaciones, stands para eventos, y demás elementos de imprenta relacionados con la imagen corporativa del producto y para los diferentes tipos de canales donde publicamos contenido como banners y piezas para redes sociales, blogs, correos electrónicos y otros."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "CARTO"
-        },
-        "roles": [
-          {
-            "name": "UX/UI Designer",
-            "startDate": "2015-05-01",
-            "finishDate": "2015-10-01",
-            "challenges": [
-              {
-                "description": "Diseño Visual\n\nConceptualización, Diseño Visual e implementación de páginas de lanzamiento pertenecientes a la website de CARTO. Utilizando para ello HTML, CSS y JS junto con otras herramientas como Jeckyll, Grunt, Gulp o Sass, siguiendo una guía de estilos. \n\nDiseño UX/UI\n\nElaboración de diferentes test de usabilidad en el producto para satisfacer los requisitos de calidad que estaban relacionados con aquellas operaciones que realizaba un nuevo usuario desde que aterrizaba a la página principal hasta que realizaba diversas operaciones dentro del dashboard del producto.\n\nIlustración\n\nRealización de assets e ilustraciones para ilustrar la historia que contaban las diferentes páginas de lanzamiento del producto.\n\nEn esta etapa he tenido el placer de colaborar con muchos compañeros de diferente ámbito de los cuales he de dar las gracias al crecimiento personal y profesional."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Datapad"
-        },
-        "roles": [
-          {
-            "name": "UX/UI Designer",
-            "startDate": "2014-04-01",
-            "finishDate": "2014-06-01",
-            "challenges": [
-              {
-                "description": "Diseño Visual\n\nConceptualización, diseño visual e implementación de la página web de lanzamiento de Datapad de forma adaptativa a diferentes dispositivos mediante HTML, CSS y JS utilizando para ello Compass. \n\nColaboración con los compañeros de diseño de Datapad en San Francisco trabajando de manera remota. Durante la colaboración he trabajado directamente con Luca Candela, Director de Producto."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Luce IT"
-        },
-        "roles": [
-          {
-            "name": "UX/UI Designer",
-            "startDate": "2010-06-01",
-            "finishDate": "2015-05-01",
-            "challenges": [
-              {
-                "description": "Diseño de Producto Digital\n\nParticipando desde la investigación inicial, entrevistas con clientes para entender sus necesidades, conceptualización, creación de prototipos, validación de soluciones, test de usabilidad con usuarios, diseños finales para llevar a producción, entrega de recursos a los compañeros de desarrollo. Trabajando en equipos multidisciplinares junto a otras personas de diferentes perfiles.\n\nDiseño Visual UX/UI\n\nDiseño de interfaces para páginas / aplicaciones web, posterior desarrollo mediante HTML y CSS siguiendo los estándares W3C para que sean accesibles al usuario. Diseño web adaptativo permitiendo que el sitio web se adapte al entorno del usuario.\n\nDiseño de interfaces móviles respetando las guías de diseño de cada tecnología, aplicando normas de usabilidad, arquitectura de la información y siguiendo un conjunto de buenas prácticas para que sean funcionales para el usuario.\n\nConceptualización de interfaces para diferentes dispositivos, desarrollo de esquemas conceptuales, diagramas, mapas de navegación, elaboración de wireframes y prototipos interactivos.\n\nPreocupado porque sean útiles y fáciles de usar para el usuario aplicando diferentes técnicas como Card Sorting, Tree Jack Test, Focus Group, Test 5 segundos o Test de usuarios. \n\nDesarrollo Web y Móvil\n\nAplicación de estilos CSS y código limpio para la maquetación de interfaces, utilizando para ello preprocesadores CSS como SASS (Compass).\n\nUtilización de frameworks JavaScript como JQuery para aplicar efectos visuales que no pueda realizar mediante CSS3. \n\nMaquetación móvil de interfaces para aplicaciones Android. \n\nDiseño Gráfico\n\nDiseño de diferentes componentes gráficos como logotipos, imagen corporativa, folletos y papelería.\n\nIlustración\n\nRealización de ilustraciones para diseño web y gráfico, adornando los diseños realizados para darles un valor añadido."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Exis TI"
-        },
-        "roles": [
-          {
-            "name": " UX/UI Designer & Developer",
-            "startDate": "2010-01-01",
-            "finishDate": "2010-07-01",
-            "challenges": [
-              {
-                "description": "Desempeñando funciones de diseño, maquetación web mediante HTML /CSS respetando los estándares web y desarrollo de aplicaciones web en entorno de desarrollo Java."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Freelance"
-        },
-        "roles": [
-          {
-            "name": "UX/UI Designer",
-            "startDate": "2004-09-01",
-            "finishDate": "2010-09-01",
-            "challenges": [
-              {
-                "description": "Diseño Visual UX/UI\n\nDiseño de interfaces para páginas / aplicaciones web, posterior desarrollo mediante HTML y CSS siguiendo los estándares W3C para que sean accesibles al usuario. Diseño web adaptativo permitiendo que el sitio web se adapte al entorno del usuario.\n\nConceptualización de interfaces para diferentes dispositivos, desarrollo de esquemas conceptuales, diagramas, mapas de navegación, elaboración de wireframes y prototipos interactivos.\n\nDesarrollo Web\n\nMaquetación de proyectos web, aplicación de estilos CSS y código limpio para la maquetación de interfaces. Utilización de frameworks JavaScript como JQuery para aplicar efectos visuales que no pueda realizar mediante CSS3. \n\nDiseño Gráfico\n\nDiseño de diferentes componentes gráficos como logotipos, imagen corporativa, folletos y papelería.\n\nIlustración\n\nRealización de ilustraciones para diseño web y gráfico, adornando los diseños realizados para darles un valor añadido."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Renault"
-        },
-        "roles": [
-          {
-            "name": "UX/UI Designer & Developer",
-            "startDate": "2004-04-01",
-            "finishDate": "2004-08-01",
-            "challenges": [
-              {
-                "description": "Conceptualización, diseño visual y desarrollo de la aplicación “Labo2004” mediante el entorno de desarrollo MS Visual Basic y MS Access para el laboratorio B.E.A de Renault España. Esta app facilitaba a los trabajadores la gestión y elaboración de informes de todas las pruebas e investigaciones realizadas sobre los automóviles."
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -440,7 +303,7 @@
     "contact": {
       "publicProfiles": [
         {
-          "URL": "https://www.linkedin.com/in/mariodelvalleguijarro",
+          "URL": "https://linkedin.com/in/mariodelvalleguijarro",
           "type": "linkedin"
         },
         {
