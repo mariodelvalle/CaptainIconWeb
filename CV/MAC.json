@@ -429,56 +429,6 @@
       ]
     },
     "preferences": {
-      "preferredCompetences": [
-        {
-          "name": "Adobe Illustrator",
-          "type": "technology"
-        },
-        {
-          "name": "Adobe Photoshop",
-          "type": "technology"
-        },
-        {
-          "name": "CSS",
-          "type": "technology"
-        },
-        {
-          "name": "Figma",
-          "type": "technology"
-        },
-        {
-          "name": "HTML",
-          "type": "technology"
-        },
-        {
-          "name": "JavaScript",
-          "type": "technology"
-        },
-        {
-          "name": "Linear",
-          "type": "technology"
-        },
-        {
-          "name": "Metabase",
-          "type": "technology"
-        },
-        {
-          "name": "Miro",
-          "type": "technology"
-        },
-        {
-          "name": "Notion",
-          "type": "technology"
-        },
-        {
-          "name": "Productboard",
-          "type": "technology"
-        },
-        {
-          "name": "Sketch",
-          "type": "technology"
-        }
-      ],
       "preferredRoles": [
         "Product Design (UI/UX)"
       ]
