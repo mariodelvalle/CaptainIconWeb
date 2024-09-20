@@ -331,12 +331,6 @@
       },
       {
         "skill": {
-          "name": "SaaS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "Sketch",
           "type": "technology"
         }
