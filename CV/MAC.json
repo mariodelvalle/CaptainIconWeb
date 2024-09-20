@@ -481,6 +481,10 @@
         {
           "name": "Kanbanize",
           "type": "technology"
+        },
+        {
+          "name": "Linear",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
