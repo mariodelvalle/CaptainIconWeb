@@ -433,6 +433,10 @@
         {
           "name": "Figma",
           "type": "technology"
+        },
+        {
+          "name": "Sketch",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
