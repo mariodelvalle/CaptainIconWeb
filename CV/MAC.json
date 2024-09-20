@@ -27,6 +27,21 @@
         "fact": "I have participated as a volunteer in tech events and doing reviews of comic book readings, on the other hand I like to draw digital illustrations, playing with videogames, boardgames, D&D roleplaying, or LEGO, and finally reading comic books or cycling to refresh the mind."
       }
     ],
+    "recommendations": [
+      {
+        "title": "Design Patterns Catalogue",
+        "type": "other",
+        "URL": "https://catalogue.projectsbyif.com/",
+        "summary": "IF curates this catalogue to help teams design trustworthy services that work for people. Contact IF for workshops about how to use these patterns.",
+        "authors": [
+          {
+            "name": "IF",
+            "surnames": "IF",
+            "title": "Author"
+          }
+        ]
+      }
+    ],
     "relevantLinks": [
       {
         "type": "linkedin",
@@ -693,6 +708,12 @@
     "projects": [
       {
         "name": "Captainicon"
+      }
+    ],
+    "bookmarks": [
+      {
+        "name": "Design Patterns Catalogue",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/ba4165f8-5101-457c-a3fe-cecef2212b5e_sign-up-with-another.svg"
       }
     ]
   }
