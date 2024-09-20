@@ -431,6 +431,10 @@
     "preferences": {
       "preferredCompetences": [
         {
+          "name": "Adobe Creative Suite",
+          "type": "technology"
+        },
+        {
           "name": "Figma",
           "type": "technology"
         },
