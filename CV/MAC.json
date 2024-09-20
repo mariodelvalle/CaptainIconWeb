@@ -235,25 +235,7 @@
       },
       {
         "skill": {
-          "name": "Autocad",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "C",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "C#",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "C++",
+          "name": "Amplitude",
           "type": "technology"
         }
       },
@@ -265,7 +247,31 @@
       },
       {
         "skill": {
+          "name": "Figma",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Google Analytics",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Hotjar",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Invision",
           "type": "technology"
         }
       },
@@ -283,6 +289,30 @@
       },
       {
         "skill": {
+          "name": "Jekyll",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Linear",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Miro",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Sketch",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Zeplin",
           "type": "technology"
         }
@@ -292,7 +322,7 @@
       {
         "studyType": "officialDegree",
         "degreeAchieved": true,
-        "name": "Bachelor of Science - BS, Computer Software Engineering",
+        "name": "Bachelor of Science, Computer Software Engineering",
         "startDate": "2004-09-01",
         "institution": {
           "name": "Universidad de Valladolid",
@@ -370,7 +400,15 @@
         "type": "technology"
       },
       {
+        "name": "Figma",
+        "type": "technology"
+      },
+      {
         "name": "HTML",
+        "type": "technology"
+      },
+      {
+        "name": "Sketch",
         "type": "technology"
       }
     ]
