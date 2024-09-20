@@ -457,6 +457,14 @@
         {
           "name": "Google Analytics",
           "type": "technology"
+        },
+        {
+          "name": "HTML",
+          "type": "technology"
+        },
+        {
+          "name": "Hotjar",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
