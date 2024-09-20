@@ -443,6 +443,10 @@
           "type": "technology"
         },
         {
+          "name": "HTML",
+          "type": "technology"
+        },
+        {
           "name": "Sketch",
           "type": "technology"
         }
