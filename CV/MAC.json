@@ -437,6 +437,10 @@
         {
           "name": "Adobe Photoshop",
           "type": "technology"
+        },
+        {
+          "name": "Amplitude",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
