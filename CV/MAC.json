@@ -21,6 +21,12 @@
         "municipality": "Valladolid"
       }
     },
+    "interestingFacts": [
+      {
+        "topic": "Interests",
+        "fact": "Tech events, Illustration, Videogames, Comic Books, Boardgames, D&D Roleplaying, LEGO, Cycling"
+      }
+    ],
     "relevantLinks": [
       {
         "type": "linkedin",
