@@ -241,6 +241,12 @@
       },
       {
         "skill": {
+          "name": "Asana",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "CSS",
           "type": "technology"
         }
@@ -325,6 +331,12 @@
       },
       {
         "skill": {
+          "name": "SaaS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Sketch",
           "type": "technology"
         }
@@ -332,6 +344,12 @@
       {
         "skill": {
           "name": "Slack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Tailwind",
           "type": "technology"
         }
       },
