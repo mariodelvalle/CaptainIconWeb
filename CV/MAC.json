@@ -497,6 +497,10 @@
         {
           "name": "Notion",
           "type": "technology"
+        },
+        {
+          "name": "Productboard",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
