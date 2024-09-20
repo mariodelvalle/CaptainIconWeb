@@ -433,6 +433,10 @@
         {
           "name": "Adobe Illustrator",
           "type": "technology"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
