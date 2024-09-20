@@ -313,6 +313,12 @@
       },
       {
         "skill": {
+          "name": "Slack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Zeplin",
           "type": "technology"
         }
