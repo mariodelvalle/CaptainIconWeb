@@ -485,6 +485,10 @@
         {
           "name": "Linear",
           "type": "technology"
+        },
+        {
+          "name": "Metabase",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
