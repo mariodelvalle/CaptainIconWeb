@@ -212,6 +212,49 @@
           }
         ]
       }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "Captainicon",
+          "description": "+350 free vector icons to use in your designs projects. EPS, PSD, PNG, SVG & Web Font format.",
+          "URL": "https://captainicon.com/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/3e46ddcb-a869-4bc3-9a80-a70fabdca72d_photo_2024-09-20-13.jpeg",
+            "alt": "photo_2024-09-20 13.44.46.jpeg"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2014-01-01",
+            "competences": [
+              {
+                "name": "Adobe Illustrator",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Sketch",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2014-04-01"
+          }
+        ]
+      }
     ]
   },
   "knowledge": {
@@ -560,6 +603,11 @@
         "type": "technology"
       }
     ],
-    "desiredJobDescription": "My perfect job would have a good company culture and a good working atmosphere where the knowledge should flow between team mates so that we can learn from each other.\n\nI would like the project to be challenging so I can improve day by day, and where early, mid and late term expectations are clear, surrounded by like-minded professionals who care about and like their work. \n\nI consider myself an individual contributor although in some past work experiences I have been design team leader and felt comfortable in that position. \n\nMy ideal work day is one in which both my team mates and I are excited about the project, there is a safe space to share doubts and concerns with an atmosphere of respect."
+    "desiredJobDescription": "My perfect job would have a good company culture and a good working atmosphere where the knowledge should flow between team mates so that we can learn from each other.\n\nI would like the project to be challenging so I can improve day by day, and where early, mid and late term expectations are clear, surrounded by like-minded professionals who care about and like their work. \n\nI consider myself an individual contributor although in some past work experiences I have been design team leader and felt comfortable in that position. \n\nMy ideal work day is one in which both my team mates and I are excited about the project, there is a safe space to share doubts and concerns with an atmosphere of respect.",
+    "projects": [
+      {
+        "name": "Captainicon"
+      }
+    ]
   }
 }
