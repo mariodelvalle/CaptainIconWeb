@@ -323,6 +323,12 @@
       },
       {
         "skill": {
+          "name": "Analytical thinking",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
           "name": "Team player",
           "type": "practice"
         }
