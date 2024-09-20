@@ -431,10 +431,6 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "Adobe Creative Suite",
-          "type": "technology"
-        },
-        {
           "name": "Adobe Illustrator",
           "type": "technology"
         },
