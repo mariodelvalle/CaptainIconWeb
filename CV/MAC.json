@@ -11,8 +11,8 @@
       "title": "Product Designer @ Ukio | UX Design | SaaS",
       "description": "I am an enthusiastic designer based in Valladolid, Spain. I have been a team player inside product design teams in the last 14 years, eager to learn and help startups grow in consulting, GIS mapping, retail and real estate sectors. Joining from the early stages of small and big product companies, improving customer experience through good design. I am passionate about product, technology, visual design, branding, information architecture, and user experience.",
       "avatar": {
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/a223f3c2-ce80-4da9-9e7e-6ca10f1c90d6_linkedin-photo-44249.linkedin-photo-44249",
-        "alt": "24/09/20/a223f3c2-ce80-4da9-9e7e-6ca10f1c90d6_linkedin-photo-44249.linkedin-photo-44249"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/9395ed37-4f13-4d58-93c6-cf28a82b4397_linkedin-photo-44249.linkedin-photo-44249",
+        "alt": "24/09/20/9395ed37-4f13-4d58-93c6-cf28a82b4397_linkedin-photo-44249.linkedin-photo-44249"
       },
       "location": {
         "notes": "Autocompleted using Google Maps API (id: ChIJk27GCIxyRw0R72uiHNSS_7M)",
@@ -40,6 +40,173 @@
       }
     ]
   },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Ukio",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/50da7703-fbed-4398-ae1b-2595d916b351_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/50da7703-fbed-4398-ae1b-2595d916b351_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "Product Designer",
+            "startDate": "2022-02-01",
+            "challenges": [
+              {
+                "description": "Improved the productivity of sales teams through the development of a booking management system within a new internal product, creating new bookings and managing transactions before payment.\n\nDeveloped functionalities to attend customer requests after confirmation of a reservation for +1000 apartments in different regions, working cross-functionally with supply, design, operations and sales teams.\n\nIncreased low seasonality bookings in different regions through managing apartment prices from functionality for apartment management within real estate software product.\n\nCollaborated with the lead product manager on multiple website features, including a new booking, apartment search, property detail, and check-out increasing online bookings through building a self-service website."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Nextail",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/3a1487f0-6e13-46de-bc2d-9812b0b284fc_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/3a1487f0-6e13-46de-bc2d-9812b0b284fc_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "Product Designer",
+            "startDate": "2015-11-01",
+            "finishDate": "2021-05-31",
+            "challenges": [
+              {
+                "description": "Redesigned Replenishment module (representing 40% of global MRR) including a new design system for retail software product, decreasing critical errors by 85% and increasing NPS.\n\nResearched Store Transfers functionality (representing 20% of global MRR) generating trust in our customers we prevented a high percentage from churning, collaborating with product manager and development team.\n\nLed new products based on user and market research insights and product metrics analysis. Buying & Allocation solutions with new use cases which meant an increase in usage and therefore revenue.\n\nCollaborated with growth and sales team to design and develop the responsive website using HTML, CSS and JS, including a new component library to increase the clients, raising initial funding round and closing the Series A."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "CARTO",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/bbe786cf-1471-4835-86e2-68c4f4e42412_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/bbe786cf-1471-4835-86e2-68c4f4e42412_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "Product Designer",
+            "startDate": "2015-05-01",
+            "finishDate": "2015-10-31",
+            "challenges": [
+              {
+                "description": "Designed and developed landing pages for the website (HTML, CSS, JS and Jekyll markdown) including blog posts to increase the rate of clients and preparing the next funding round, closing the Series B a few months later.\n\nCollaborated with design and development team, to implement new features within the data visualization in maps software, applying the feedback received from users to increase the NPS and improving acquisition rate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Datapad",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/7af829e7-228d-4f7d-b7a0-d238756fade1_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/7af829e7-228d-4f7d-b7a0-d238756fade1_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "Product Designer",
+            "startDate": "2014-04-01",
+            "finishDate": "2014-06-30",
+            "challenges": [
+              {
+                "description": "Created new features within the data visualization in graphs software, researching with product and tech team to identify problems and pain points of all clients through usability testing to improve the success rate.\n\nDesigned landing pages for the website, including new strategies with lead product manager to increase the rate of Datapad early adopters measured by analytics tools."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "LUCE INNOVATIVE TECHNOLOGIES",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/843103ad-a8a4-443f-9d5b-d25b90c2eea9_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/843103ad-a8a4-443f-9d5b-d25b90c2eea9_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "UX Designer",
+            "startDate": "2010-06-01",
+            "finishDate": "2015-05-31",
+            "challenges": [
+              {
+                "description": "Develop mobile apps both native and hybrid of different areas, e-commerce food and automotive including customer success increasing surveys submissions to know feedback of all customers.\n\nCollaborated with product owners and developers to build multiple responsive web applications including aeronautics, financial, postal mail, transport and e-commerce to increase the completion rate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "EXIS TI",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/6a9052e8-0aed-40c9-8f1a-55c56e91c11f_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/6a9052e8-0aed-40c9-8f1a-55c56e91c11f_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "Frontend Web Developer",
+            "startDate": "2010-01-01",
+            "finishDate": "2010-07-31",
+            "challenges": [
+              {
+                "description": "Developed responsive websites with HTML / CSS and web standards\n\nCollaborated within a team of 5 developers and creating web applications, coding with Java and Javascript."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Freelance"
+        },
+        "roles": [
+          {
+            "name": "UX Designer",
+            "startDate": "2004-09-01",
+            "finishDate": "2010-04-30",
+            "challenges": [
+              {
+                "description": "Designed websites and web applications for clients and small companies\n\nDeveloped responsive websites with HTML / CSS\n\nDesigned logos, corporate image for small companies, including different printing elements like id cards, brochures, folders, posters, t-shirt, stands, and so on.\n\nCreated illustrations for websites and print elements"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Renault",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/c67d324d-2d37-49e2-99d1-7af6bef9ef66_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/c67d324d-2d37-49e2-99d1-7af6bef9ef66_linkedin-photo-44249.linkedin-photo-44249"
+          }
+        },
+        "roles": [
+          {
+            "name": "Software Developer",
+            "startDate": "2004-04-01",
+            "finishDate": "2004-07-31",
+            "challenges": [
+              {
+                "description": "Developed an desktop application for the management and maintenance of the components of a car through MS Visual Basic and MS Access for the B.E.A. laboratory at Renault factory in Valladolid."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "knowledge": {
     "languages": [
       {
@@ -51,11 +218,6 @@
         "name": "ES",
         "fullName": "Español",
         "level": "Native or bilingual proficiency"
-      },
-      {
-        "name": "FR",
-        "fullName": "Francés",
-        "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
@@ -134,168 +296,28 @@
     ],
     "studies": [
       {
-        "studyType": "unaccredited",
-        "degreeAchieved": true,
-        "name": "Desarrollo de Aplicaciones Informáticas",
-        "startDate": "2001-07-01",
-        "institution": {
-          "name": "Instituto de Enseñanzas Técnicas (IET)",
-          "URL": "https://sede.sepe.gob.es/especialidadesformativas/RXBuscadorEFRED/ListarEspecialidades.do?codCentro=4700001221"
-        },
-        "finishDate": "2001-12-01",
-        "linkedCompetences": [
-          {
-            "name": "C",
-            "type": "technology"
-          },
-          {
-            "name": "C#",
-            "type": "technology"
-          },
-          {
-            "name": "C++",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "Java",
-            "type": "technology"
-          },
-          {
-            "name": "JavaScript",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "unaccredited",
-        "degreeAchieved": true,
-        "name": "Diseño y animación 3D",
-        "startDate": "2002-01-01",
-        "institution": {
-          "name": "Escuela Empresarial Platon SL",
-          "URL": "https://sede.sepe.gob.es/especialidadesformativas/RXBuscadorEFRED/ListarEspecialidades.do?codCentro=8000000575"
-        },
-        "finishDate": "2002-08-01",
-        "linkedCompetences": [
-          {
-            "name": "Autocad",
-            "type": "technology"
-          },
-          {
-            "name": "Autodesk 3D Studio Max",
-            "type": "technology"
-          },
-          {
-            "name": "Maya",
-            "type": "technology"
-          }
-        ]
-      },
-      {
         "studyType": "officialDegree",
         "degreeAchieved": true,
-        "name": "Grado Superior de Desarrollo de Aplicaciones Informáticas",
-        "startDate": "2002-09-01",
-        "institution": {
-          "name": "IES Ribera de Castilla",
-          "URL": "http://iesriberadecastilla.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=8&wid_item=164"
-        },
-        "finishDate": "2004-03-01",
-        "linkedCompetences": [
-          {
-            "name": "C",
-            "type": "technology"
-          },
-          {
-            "name": "C#",
-            "type": "technology"
-          },
-          {
-            "name": "C++",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "Java",
-            "type": "technology"
-          },
-          {
-            "name": "JavaScript",
-            "type": "technology"
-          },
-          {
-            "name": "MySQL",
-            "type": "technology"
-          },
-          {
-            "name": "PL/SQL",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "officialDegree",
-        "degreeAchieved": true,
-        "name": "Ingeniería Técnica Informatica de Gestión",
+        "name": "Bachelor of Science - BS, Computer Software Engineering",
         "startDate": "2004-09-01",
         "institution": {
-          "name": "ETS Ingenieria Informática de la Universidad de Valladolid",
-          "URL": "https://www.inf.uva.es/"
-        },
-        "finishDate": "2010-06-01",
-        "linkedCompetences": [
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "Eclipse",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "Java",
-            "type": "technology"
-          },
-          {
-            "name": "JavaScript",
-            "type": "technology"
-          },
-          {
-            "name": "MySQL",
-            "type": "technology"
-          },
-          {
-            "name": "Pascal",
-            "type": "technology"
-          },
-          {
-            "name": "SQL",
-            "type": "technology"
-          },
-          {
-            "name": "Scss",
-            "type": "technology"
+          "name": "Universidad de Valladolid",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/09/20/4186db26-028d-4b4c-be63-f7a6e2630dea_linkedin-photo-44249.linkedin-photo-44249",
+            "alt": "24/09/20/4186db26-028d-4b4c-be63-f7a6e2630dea_linkedin-photo-44249.linkedin-photo-44249"
           }
-        ]
+        },
+        "finishDate": "2010-07-31"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Higher National Diploma, Computer Software Engineering",
+        "startDate": "2002-09-01",
+        "institution": {
+          "name": "I.E.S. Ribera de Castilla"
+        },
+        "finishDate": "2004-07-31"
       }
     ]
   },
