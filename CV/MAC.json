@@ -429,6 +429,12 @@
       ]
     },
     "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "Adobe Illustrator",
+          "type": "technology"
+        }
+      ],
       "preferredRoles": [
         "Product Design (UI/UX)"
       ]
