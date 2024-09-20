@@ -441,6 +441,14 @@
         {
           "name": "Amplitude",
           "type": "technology"
+        },
+        {
+          "name": "Asana",
+          "type": "technology"
+        },
+        {
+          "name": "CSS",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
