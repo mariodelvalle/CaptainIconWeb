@@ -473,6 +473,14 @@
         {
           "name": "JavaScript",
           "type": "technology"
+        },
+        {
+          "name": "Jekyll",
+          "type": "technology"
+        },
+        {
+          "name": "Kanbanize",
+          "type": "technology"
         }
       ],
       "preferredRoles": [
