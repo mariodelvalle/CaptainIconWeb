@@ -57,8 +57,7 @@
       },
       {
         "type": "other",
-        "URL": "https://dribbble.com/mariodelvalle",
-        "description": "Dribbble"
+        "URL": "https://mariodelvalle.es/"
       }
     ]
   },
@@ -574,9 +573,6 @@
           "URL": "https://twitter.com/maduil",
           "type": "twitter"
         }
-      ],
-      "contactMails": [
-        "correodemariete@gmail.com"
       ]
     },
     "preferences": {
